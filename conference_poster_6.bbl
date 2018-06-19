@@ -1,3 +1,33 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{Cardelli2016NoiseSwitches}
+Luca Cardelli, Attila Csik{\'{a}}sz-Nagy, Neil Dalchau, Mirco Tribastone, and
+  Max Tschaikowski.
+\newblock {Noise Reduction in Complex Biological Switches}.
+\newblock {\em Scientific Reports}, 6, 2016.
+
+\bibitem{Dalchau2014ComputationalNetworks}
+Neil Dalchau, Georg Seelig, and Andrew Phillips.
+\newblock {Computational Design of Reaction-Diffusion Patterns Using DNA-Based
+  Chemical Reaction Networks}.
+\newblock pages 84--99. Springer, Cham, 2014.
+
+\bibitem{DanielsSloppinessBiology}
+Bryan~C Daniels, Yan-Jiun Chen, James~P Sethna, Ryan~N Gutenkunst, and
+  Christopher~R Myers.
+\newblock {Sloppiness, robustness and evolvability in systems biology}.
+
+\bibitem{Halatek2018}
+J.~Halatek and E.~Frey.
+\newblock {Rethinking pattern formation in reaction–diffusion systems}.
+\newblock {\em Nature Physics}, page~1, 2 2018.
+
+\bibitem{Loose2011MinMinE}
+Martin Loose, Elisabeth Fischer-Friedrich, Christoph Herold, Karsten Kruse, and
+  Petra Schwille.
+\newblock {Min protein patterns emerge from rapid rebinding and membrane
+  interaction of MinE}.
+\newblock {\em Nature Structural {\&} Molecular Biology}, 18(5):577--583, 5
+  2011.
 
 \end{thebibliography}

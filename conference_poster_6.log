@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.22)  19 JUN 2018 13:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.22)  19 JUN 2018 14:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -636,28 +636,56 @@ File: figures/population.png Graphic file (type png)
  <use figures/population.png>
 Package pdftex.def Info: figures/population.png used on input line 146.
 (pdftex.def)             Requested size: 571.30592pt x 307.87454pt.
- (/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.bbl
 
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
+Underfull \hbox (badness 10000) in paragraph at lines 151--163
 
-) [1
+ []
+
+<figures/competition.png, id=12, 298.11375pt x 249.93375pt>
+File: figures/competition.png Graphic file (type png)
+ <use figures/competition.png>
+Package pdftex.def Info: figures/competition.png used on input line 165.
+(pdftex.def)             Requested size: 571.30592pt x 479.05121pt.
+ <figures/motivation.png, id=13, 632.3625pt x 740.7675pt>
+File: figures/motivation.png Graphic file (type png)
+ <use figures/motivation.png>
+Package pdftex.def Info: figures/motivation.png used on input line 174.
+(pdftex.def)             Requested size: 628.44426pt x 736.2331pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--179
+
+ []
+
+(/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.bbl
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--32
+[]\OT1/ptm/m/n/29.86 Martin Loose, Elis-a-beth Fischer-Friedrich,
+ []
+
+)
+Overfull \vbox (11.00632pt too high) has occurred while \output is active []
+
+ [1
 
 
-Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/gszep/Documents/presentations/biochemical-networks-poster/figures/abstract.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/kcl.jpg> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/mrc.jpg> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/epsrc.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/inference.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/reduction.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/population.png>] (/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.aux) ) 
+Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/gszep/Documents/presentations/biochemical-networks-poster/figures/abstract.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/kcl.jpg> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/mrc.jpg> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/epsrc.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/inference.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/reduction.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/population.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/competition.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/motivation.png>] (/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.aux) ) 
 Here is how much of TeX's memory you used:
- 15794 strings out of 493029
- 317349 string characters out of 6136234
- 375872 words of memory out of 5000000
- 19030 multiletter control sequences out of 15000+600000
- 24799 words of font info for 62 fonts, out of 8000000 for 9000
+ 15823 strings out of 493029
+ 317922 string characters out of 6136234
+ 387887 words of memory out of 5000000
+ 19054 multiletter control sequences out of 15000+600000
+ 31298 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,6n,73p,839b,586s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.pdf (1 page, 377638 bytes).
+ 54i,9n,73p,839b,586s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8
+r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.pdf (1 page, 523967 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 64 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
