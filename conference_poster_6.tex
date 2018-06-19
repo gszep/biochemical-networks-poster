@@ -20,13 +20,13 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[a0,portrait]{a0poster}
-
 \usepackage{multicol} % This is so we can have multiple columns of text side-by-side
 \columnsep=100pt % This is the amount of white space between the columns in the poster
 \columnseprule=3pt % This is the thickness of the black line between the columns in the poster
 
 \usepackage[svgnames]{xcolor} % Specify colors by their 'svgnames', for a full list of all colors available see here: http://www.latextemplates.com/svgnames-colors
 \usepackage{tcolorbox}
+\usepackage{tikz}
 \usepackage{times} % Use the times font
 %\usepackage{palatino} % Uncomment to use the Palatino font
 
@@ -52,17 +52,28 @@
 	\begin{center}
 		\veryHuge \color{DarkRed} \textbf{On reverse-engineering natural computation} \color{Black}\\ % Title
 		\Huge\textit{using reaction-diffusion approaches beyond linear stability}\\[2.4cm] % Subtitle
-		\huge \textbf{Gregory Sz\'ep$^1$, Attila Csik\'asz-Nagy$^1$, Luca Cardelli$^2$}\\[0.5cm] % Author(s)
-		\huge $^1$King's College London $^2$Microsoft Research\\[0.4cm] % University/organization
+		\huge \textbf{Gregory Sz\'ep$^1$, Attila Csik\'asz-Nagy$^1$, Luca Cardelli$^2$}\\[0.5cm]
 		\vspace{1cm}\includegraphics[width=70cm]{abstract}
 	\end{center}
 \end{minipage}
-%
-\begin{minipage}[b]{0.25\linewidth}
 
-\end{minipage}
+\addtobeamertemplate{}{}
+{\begin{tikzpicture}[remember picture, overlay]
+     \node [anchor=north west, inner sep=6cm]  at (-8,34)
+     {\includegraphics[height=7cm]{kcl}\huge $^2$};
+  \end{tikzpicture}}
 
-\vspace{1cm} % A bit of extra whitespace between the header and poster content
+\addtobeamertemplate{}{}
+{\begin{tikzpicture}[remember picture, overlay]
+     \node [anchor=north east, inner sep=6cm]  at (83,34)
+     {\includegraphics[height=3cm]{mrc}\huge $^1$};
+  \end{tikzpicture}}
+
+	\addtobeamertemplate{}{}
+	{\begin{tikzpicture}[remember picture, overlay]
+	     \node [anchor=south west, inner sep=6cm]  at (-8,-88)
+	     {\includegraphics[height=7cm]{epsrc}};
+	  \end{tikzpicture}}
 
 %----------------------------------------------------------------------------------------
 
@@ -101,7 +112,7 @@ parameters \cite{} and reduce complexity in reaction networks?}
 \end{center}
 \end{tcolorbox}
 \begin{center}
-\includegraphics[width=0.6\linewidth]{reduction}
+\includegraphics[width=0.9\linewidth]{reduction}
 \end{center}
 \begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
 \begin{center}\color{DarkRed}
@@ -120,7 +131,20 @@ diffusion instability or not has been a matter of debate and speculation.
 It is conceivable that the differential diffusion condition is satisfied
 by the time-scale separation between cytosolic, membrane and inter-cellular
 reactions.
-
+\\\\
+Finite element reaction-diffusion simulations can take these effects into
+account explicity at an enourmous computational cost, which leads researches to
+resort to more abstract Kuramoto-type models.
+\\
+\begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
+\begin{center}\color{DarkRed}
+\textbf{Can we construct a computationally tractable reaction-diffusion model
+that takes cell division and death into account?}
+\end{center}
+\end{tcolorbox}
+\begin{center}
+\includegraphics[width=0.9\linewidth]{population}
+\end{center}
 \vfill\null
 \columnbreak
 \section{Geometrisation approach}
