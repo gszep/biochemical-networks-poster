@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex conference_poster_6"] 1529415779 "conference_poster_6.aux" "conference_poster_6.bbl" "conference_poster_6" 1529416053
+["bibtex conference_poster_6"] 1529416690 "conference_poster_6.aux" "conference_poster_6.bbl" "conference_poster_6" 1529416696
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "conference_poster_6.aux" 1529416053 836 e73fd8f97ec918e433350488f076d696 ""
+  "conference_poster_6.aux" 1529416696 565 59c26abb42c16ac2a037f19eeafc9804 ""
   "conference_poster_6.bcf" 0 -1 0 ""
   "mendeley_v2.bib" 1529415750 108713 c77f4ca9b9d1db94dceba4573a16960a ""
   (generated)
-  "conference_poster_6.blg"
   "conference_poster_6.bbl"
-["pdflatex"] 1529416052 "conference_poster_6.tex" "/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.pdf" "conference_poster_6" 1529416053
+  "conference_poster_6.blg"
+["pdflatex"] 1529416695 "conference_poster_6.tex" "/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.pdf" "conference_poster_6" 1529416696
   "/etc/texmf/web2c/texmf.cnf" 1519309125 1101 af7716885e081ab43982cab7b4672c1a ""
-  "/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.aux" 1529416053 836 e73fd8f97ec918e433350488f076d696 ""
+  "/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.aux" 1529416696 565 59c26abb42c16ac2a037f19eeafc9804 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -138,6 +138,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty" 1393459310 348 8927fde343487e003b01a4c2ca34073b ""
   "/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty" 1203727794 274 4cad6e665cc93ac2ac979039a94fa1e1 ""
   "/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty" 1203877327 325 2bcd023400636339210573e2b3ee298b ""
+  "/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd" 1137110629 576 95c2c0baea9c719a4be29a3d4122498b ""
   "/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd" 1137110629 961 15056f4a61917ceed3a44e4ac11fcc52 ""
   "/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty" 1156702453 857 6c716f26c5eadfb81029fcd6ce2d45e6 ""
   "/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty" 1456793617 78964 6d013f37d2ead98b69b1ee72b121f779 ""
@@ -153,9 +154,9 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1519309230 3854555 7499d7f12df913202bbb752d7ad9764a ""
   "a0poster.cls" 1529062515 6175 e10070e74ab12867f35b716f685b1d25 ""
   "a0size.sty" 1529062515 7726 4ed313163e0d437a46695c16caf0fe9d ""
-  "conference_poster_6.aux" 1529416053 836 e73fd8f97ec918e433350488f076d696 ""
-  "conference_poster_6.bbl" 1529415779 1217 bea869abca47a0d88131324d1bd54efa "bibtex conference_poster_6"
-  "conference_poster_6.tex" 1529416051 9583 cd33c6f334f3244e03556caccedf8fd9 ""
+  "conference_poster_6.aux" 1529416696 565 59c26abb42c16ac2a037f19eeafc9804 ""
+  "conference_poster_6.bbl" 1529416690 1217 bea869abca47a0d88131324d1bd54efa "bibtex conference_poster_6"
+  "conference_poster_6.tex" 1529416695 9758 df6eaa1146e9cd2b9c8ccb0eb2451575 ""
   "figures/abstract.png" 1529399334 62236 f2f492cf849ed18c4cc5746146a3c92e ""
   "figures/competition.png" 1529415076 53615 70055049204cfebe8abf9c4ddf71fadd ""
   "figures/epsrc.png" 1529410487 44516 a34402e27e3cc9990b85a45760c7c896 ""
@@ -166,8 +167,8 @@
   "figures/population.png" 1529411963 78347 2eab083bd6422425796e8cbbe6834706 ""
   "figures/reduction.png" 1529412037 39404 0c3d190d4f732e79b9fe586aa0f44f05 ""
   (generated)
-  "conference_poster_6.aux"
-  "/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.log"
-  "conference_poster_6.pdf"
-  "conference_poster_6.log"
   "/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.pdf"
+  "conference_poster_6.pdf"
+  "/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.log"
+  "conference_poster_6.aux"
+  "conference_poster_6.log"

@@ -265,6 +265,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /home/gszep/Documents/presentations/biochemical-networks-poster/figures/competition.png
 INPUT /home/gszep/Documents/presentations/biochemical-networks-poster/figures/competition.png
 INPUT /home/gszep/Documents/presentations/biochemical-networks-poster/figures/competition.png
+INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT /home/gszep/Documents/presentations/biochemical-networks-poster/figures/motivation.png
 INPUT /home/gszep/Documents/presentations/biochemical-networks-poster/figures/motivation.png
