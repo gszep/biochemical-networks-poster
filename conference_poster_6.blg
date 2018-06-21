@@ -15,39 +15,38 @@ Reallocated ex_buf (elt_size=1) to 60000 items from 40000.
 Reallocated out_buf (elt_size=1) to 60000 items from 40000.
 Reallocated name_tok (elt_size=4) to 60000 items from 40000.
 Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
-Warning--empty booktitle in Dalchau2014ComputationalNetworks
 Warning--empty journal in DanielsSloppinessBiology
 Warning--empty year in DanielsSloppinessBiology
 You've used 5 entries,
             1807 wiz_defined-function locations,
-            480 strings with 4652 characters,
-and the built_in function-call counts, 830 in all, are:
-= -- 67
+            479 strings with 4700 characters,
+and the built_in function-call counts, 801 in all, are:
+= -- 66
 > -- 61
 < -- 0
 + -- 28
 - -- 14
-* -- 45
-:= -- 162
+* -- 44
+:= -- 161
 add.period$ -- 14
 call.type$ -- 5
 change.case$ -- 5
 chr.to.int$ -- 0
-cite$ -- 8
-duplicate$ -- 34
-empty$ -- 58
+cite$ -- 7
+duplicate$ -- 30
+empty$ -- 51
 format.name$ -- 14
-if$ -- 172
+if$ -- 164
 int.to.chr$ -- 0
 int.to.str$ -- 5
 missing$ -- 5
 newline$ -- 27
 num.names$ -- 5
-pop$ -- 13
+pop$ -- 9
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 20
+skip$ -- 19
 stack$ -- 0
 substring$ -- 0
 swap$ -- 4
@@ -55,8 +54,8 @@ text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
+warning$ -- 2
 while$ -- 5
 width$ -- 6
 write$ -- 49
-(There were 3 warnings)
+(There were 2 warnings)

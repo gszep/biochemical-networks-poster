@@ -1,10 +1,9 @@
 \begin{thebibliography}{1}
 
-\bibitem{Dalchau2014ComputationalNetworks}
-Neil Dalchau, Georg Seelig, et~al.
-\newblock {Computational Design of Reaction-Diffusion Patterns Using DNA-Based
-  Chemical Reaction Networks}.
-\newblock {\em Springer, Cham}, 2014.
+\bibitem{Dalchau2018ComputingClocks}
+Neil Dalchau, Gregory Sz{\'{e}}p, et~al.
+\newblock {Computing with biological switches and clocks}.
+\newblock {\em Natural Computing}, 6 2018.
 
 \bibitem{Loose2011MinMinE}
 Martin Loose, Elisabeth Fischer-Friedrich, et~al.

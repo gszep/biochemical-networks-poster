@@ -9,6 +9,7 @@
 \usepackage{palatino} % use the Palatino font
 
 \usepackage{graphicx} % Required for including images
+\usepackage{enumitem}
 \graphicspath{{figures/}} % Location of the graphics files
 
 \usepackage{booktabs} % Top and bottom rules for table
@@ -45,27 +46,34 @@
      \node [anchor=south west, inner sep=6cm]  at (58,-89)
      {\includegraphics[height=7cm]{epsrc}};
   \end{tikzpicture}}
-\vspace{-4cm}
+\vspace{-3cm}
+
+% itemized thumbs up/down icons
+\newcommand*\up{\item[{\includegraphics[width=0.75em]{up}}\,\,]}
+\newcommand*\down{\item[{\includegraphics[width=0.75em]{down}}\,\,]}
 
 %----------------------------------------------------------------------------------------
 
-\color{DarkRed}\begin{center}
-\section*{\huge Evolution of response behaviour}
-\end{center}\color{Black}
 \huge
-Specific mappings have been explored between between algorithms, electrical
-engineering circuits and chemical reaction networks \cite{Dalchau2014ComputationalNetworks}. Understanding function
-of large biochemical networks from a computer science perspective guides experiments
-in synthetic biology and in-vitro reconstructive approaches \cite{Loose2011MinMinE}.
+
 \medbreak
 \begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
 \begin{center}\color{DarkRed}
-\textbf{How does one design the \textit{least complex} chemical
-reaction network that obeys a given \textit{response function}?}
+\textbf{What is the \textit{minimal} reaction network that obeys a given \textit{response function}?}
 \end{center}
 \end{tcolorbox}
+
+\begin{itemize}[leftmargin=5cm]
+	\up Mappings between between algorithms and biochemical reaction networks have been\\
+	explored to pave the path towards molecular programming in cells \cite{Dalchau2018ComputingClocks}
+	\up Synthetic biology and in-vitro reconstructive approaches \cite{Loose2011MinMinE}
+	enable scientists to probe the validity of proposed reaction networks
+	\down Equally valid networks can be 
+	\down No general mapping exists that takes model complexity into consideration
+\end{itemize}
+guides experiments
 \begin{center}
-\includegraphics[width=1.0\linewidth]{inference}
+\includegraphics[width=0.2\linewidth]{inference}
 \end{center}\noindent
 The function of known biochemical networks such as the MAPK pathway,
 circadian rhythms and cell-cycles can be understood in terms of simple
@@ -93,8 +101,7 @@ can we construct evolutionary trees and understand how primitive switches
 and clocks evolved?}
 \end{center}
 \end{tcolorbox}
-\vfill\null
-\columnbreak
+
 \section*{2 Patterns in dynamic populations}
 Ever since Turing formulated the differential diffusion condition \cite{}
 for pattern formation, whether a biological pattern is truly driven by a
@@ -143,8 +150,7 @@ different reaction networks?}
 	\item Help evolutionary biologists
 	\item Do theory; be happy
 \end{itemize}
-\vfill\null
-\columnbreak
+
 \section*{3 Geometrisation approach}
 Recent advances in the theory of pattern formation \cite{Halatek2018} suggest that
 the dynamics of \textit{local equilibria} provide general insight into pattern
@@ -186,7 +192,6 @@ of motion:\medbreak
 % %	REFERENCES
 % %----------------------------------------------------------------------------------------
 %
-\end{multicols}
 
 \begin{minipage}[t][][b]{0.99\textwidth}
 \bibliographystyle{style} % Plain referencing style
