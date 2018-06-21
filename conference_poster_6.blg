@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: conference_poster_6.aux
-The style file: plain.bst
+The style file: style.bst
 Database file #1: mendeley_v2.bib
 Reallocated buffer (elt_size=1) to 40000 items from 20000.
 Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
@@ -19,44 +19,44 @@ Warning--empty booktitle in Dalchau2014ComputationalNetworks
 Warning--empty journal in DanielsSloppinessBiology
 Warning--empty year in DanielsSloppinessBiology
 You've used 5 entries,
-            2118 wiz_defined-function locations,
-            531 strings with 5123 characters,
-and the built_in function-call counts, 1851 in all, are:
-= -- 172
-> -- 115
-< -- 2
-+ -- 45
-- -- 40
-* -- 141
-:= -- 322
-add.period$ -- 15
+            1807 wiz_defined-function locations,
+            480 strings with 4652 characters,
+and the built_in function-call counts, 830 in all, are:
+= -- 67
+> -- 61
+< -- 0
++ -- 28
+- -- 14
+* -- 45
+:= -- 162
+add.period$ -- 14
 call.type$ -- 5
-change.case$ -- 35
+change.case$ -- 5
 chr.to.int$ -- 0
 cite$ -- 8
-duplicate$ -- 66
-empty$ -- 119
-format.name$ -- 40
-if$ -- 373
+duplicate$ -- 34
+empty$ -- 58
+format.name$ -- 14
+if$ -- 172
 int.to.chr$ -- 0
 int.to.str$ -- 5
 missing$ -- 5
 newline$ -- 27
-num.names$ -- 10
-pop$ -- 40
+num.names$ -- 5
+pop$ -- 13
 preamble$ -- 1
-purify$ -- 30
+purify$ -- 0
 quote$ -- 0
-skip$ -- 46
+skip$ -- 20
 stack$ -- 0
-substring$ -- 76
-swap$ -- 13
-text.length$ -- 2
+substring$ -- 0
+swap$ -- 4
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 20
+type$ -- 0
 warning$ -- 3
-while$ -- 16
+while$ -- 5
 width$ -- 6
-write$ -- 53
+write$ -- 49
 (There were 3 warnings)

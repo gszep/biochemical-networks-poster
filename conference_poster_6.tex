@@ -1,39 +1,19 @@
-%\title{LaTeX Portrait Poster Template}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% a0poster Portrait Poster
-% LaTeX Template
-% Version 1.0 (22/06/13)
-%
-% The a0poster class was created by:
-% Gerlinde Kettl and Matthias Weiser (tex@kettl.de)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
 \documentclass[a0,portrait]{a0poster}
 \usepackage{multicol} % This is so we can have multiple columns of text side-by-side
 \columnsep=100pt % This is the amount of white space between the columns in the poster
 \columnseprule=3pt % This is the thickness of the black line between the columns in the poster
 
 \usepackage[svgnames]{xcolor} % Specify colors by their 'svgnames', for a full list of all colors available see here: http://www.latextemplates.com/svgnames-colors
-\usepackage{tcolorbox}
-\usepackage{tikz}
-\usepackage{times} % Use the times font
-%\usepackage{palatino} % Uncomment to use the Palatino font
+\usepackage{tcolorbox} % coloured boxing of sections
+\usepackage{tikz} % manual placement of logos
+\usepackage{palatino} % use the Palatino font
 
 \usepackage{graphicx} % Required for including images
 \graphicspath{{figures/}} % Location of the graphics files
+
 \usepackage{booktabs} % Top and bottom rules for table
 \usepackage[font=small,labelfont=bf]{caption} % Required for specifying captions to tables and figures
+
 \usepackage{amsfonts, amsmath, amsthm, amssymb} % For math fonts, symbols and environments
 \usepackage{wrapfig} % Allows wrapping text around tables and figures
 
@@ -50,33 +30,31 @@
 
 \begin{minipage}[b]{0.99\linewidth}
 	\begin{center}
-		\veryHuge \color{DarkRed} \textbf{On reverse-engineering natural computation} \color{Black}\\ % Title
+		\veryHuge \color{DarkRed} \textbf{Reverse-engineering natural computation} \color{Black}\\ % Title
 		\Huge\textit{using reaction-diffusion approaches beyond linear stability}\\[2.4cm] % Subtitle
-		\huge \textbf{Gregory Sz\'ep$^1$, Attila Csik\'asz-Nagy$^1$, Luca Cardelli$^2$}\\[0.5cm]
+		\huge \textbf{Gregory Sz\'ep, Luca Cardelli, Attila Csik\'asz-Nagy}\\[0.5cm]
 		\vspace{1cm}\includegraphics[width=70cm]{abstract}
 	\end{center}
 \end{minipage}
 
-\addtobeamertemplate{}{}
+% organisation logos
 {\begin{tikzpicture}[remember picture, overlay]
      \node [anchor=north west, inner sep=6cm]  at (-8,34)
-     {\includegraphics[height=7cm]{kcl}\huge $^1$};
+     {\includegraphics[height=7cm]{kcl}};
   \end{tikzpicture}}
 
-\addtobeamertemplate{}{}
 {\begin{tikzpicture}[remember picture, overlay]
      \node [anchor=north east, inner sep=6cm]  at (83,34)
-     {\includegraphics[height=3cm]{mrc}\huge $^2$};
+     {\includegraphics[height=3cm]{mrc}};
   \end{tikzpicture}}
 
-	\addtobeamertemplate{}{}
-	{\begin{tikzpicture}[remember picture, overlay]
-	     \node [anchor=south west, inner sep=6cm]  at (-8,-88)
-	     {\includegraphics[height=7cm]{epsrc}};
-	  \end{tikzpicture}}
+{\begin{tikzpicture}[remember picture, overlay]
+     \node [anchor=south west, inner sep=6cm]  at (58,-89)
+     {\includegraphics[height=7cm]{epsrc}};
+  \end{tikzpicture}}
 
 %----------------------------------------------------------------------------------------
-
+\vspace{-4cm}
 \begin{multicols}{3} % This is how many columns your poster will be broken into, a portrait poster is generally split into 2 columns
 
 \section*{1 Evolution of response behaviour}
@@ -85,7 +63,7 @@ Specific mappings have been explored between between algorithms, electrical
 engineering circuits and chemical reaction networks \cite{Dalchau2014ComputationalNetworks}. Understanding function
 of large biochemical networks from a computer science perspective guides experiments
 in synthetic biology and in-vitro reconstructive approaches \cite{Loose2011MinMinE}.
-\\
+\medbreak
 \begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
 \begin{center}\color{DarkRed}
 \textbf{How does one design the \textit{least complex} chemical
@@ -99,12 +77,12 @@ The function of known biochemical networks such as the MAPK pathway,
 circadian rhythms and cell-cycles can be understood in terms of simple
 response functions; decomposition of large networks into switches and
 clocks are proposed in literature.
-\\\\
+\medbreak\medbreak\noindent
 The networks found in nature are far from the least complicated realisations
 of particular response functions. The additional complexity can be
 explained by molecular evolutionary paths towards robust biological function
 \cite{DanielsSloppinessBiology}.
-\\
+\medbreak
 \begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
 \begin{center}\color{DarkRed}
 \textbf{Can model reduction methods \cite{Cardelli2016NoiseSwitches} identify relevant components,
@@ -127,15 +105,15 @@ and clocks evolved?}
 Ever since Turing formulated the differential diffusion condition \cite{}
 for pattern formation, whether a biological pattern is truly driven by a
 diffusion instability or not has been a matter of debate and speculation.
-\\\\
+\medbreak\medbreak\noindent
 It is conceivable that the differential diffusion condition is satisfied
 by the time-scale separation between cytosolic, membrane and inter-cellular
 reactions.
-\\\\
+\medbreak\medbreak\noindent
 Finite element reaction-diffusion simulations can take these effects into
 account explicity at an enourmous computational cost, which leads researches to
 resort to more abstract Kuramoto-type models.
-\\
+\medbreak
 \begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
 \begin{center}\color{DarkRed}
 \textbf{Can we construct a computationally tractable reaction-diffusion model
@@ -154,7 +132,7 @@ Evolution of biochemical chemical networks is not just driven by random mutation
 but are subject to environmental pressures and competition. Snythetic approaches
 to bacterial competition experiments \cite{} allow us to probe the fitness of
 different chemical networks.
-\\
+\medbreak
 \begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
 \begin{center}\color{DarkRed}
 \textbf{How to we model competition between cell types that contain
@@ -182,7 +160,7 @@ formation beyond linear stability analysis.
 \end{center}
 Such a theory requires a descritption of the system in phase space, moving in
 harmony with reactive and diffusive forces. Below I present preliminary equations
-of motion:\\
+of motion:\medbreak
 \large\begin{align*}
 	\partial_k\left(R(k)\Gamma(k)\right)+\partial_k^2 V(k)=0\qquad\quad
 	\\\\
@@ -191,6 +169,7 @@ of motion:\\
 	V(k,t):=D\int_{\mathbb{R}^M}\!
 		(\partial_x\rho(x,t))^2\,\delta(k-\rho(x,t))\,\mathrm{d}x
 \end{align*}
+
 % %----------------------------------------------------------------------------------------
 % %	CONCLUSIONS
 % %----------------------------------------------------------------------------------------
@@ -213,10 +192,12 @@ of motion:\\
 % %	REFERENCES
 % %----------------------------------------------------------------------------------------
 %
-\bibliographystyle{plain} % Plain referencing style
-\bibliography{mendeley_v2} % Use the example bibliography file sample.bib
+\end{multicols}
 
+\begin{minipage}[t][][b]{0.99\textwidth}
+\bibliographystyle{style} % Plain referencing style
+\bibliography{mendeley_v2} % Use the example bibliography file sample.bib
+\end{minipage}
 %----------------------------------------------------------------------------------------
 
-\end{multicols}
 \end{document}

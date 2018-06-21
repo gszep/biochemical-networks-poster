@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.22)  19 JUN 2018 14:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.22)  21 JUN 2018 09:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -337,8 +337,8 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \tikz@expandcount=\count123
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-))) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
-Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+))) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/palatino.sty
+Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
 ) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen162
@@ -457,21 +457,21 @@ Package: wrapfig 2003/01/31  v 3.6
 ) (/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.aux)
 \openout1 = `conference_poster_6.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 40.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 20.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 ) (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count142
@@ -524,171 +524,94 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <74.3> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <51.6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
-LaTeX Font Info:    Try loading font information for U+msa on input line 55.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <74.3> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 33.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <51.6> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 35.
+ <figures/abstract.png, id=4, 1017.8025pt x 210.7875pt>
+File: figures/abstract.png Graphic file (type png)
+ <use figures/abstract.png>
+Package pdftex.def Info: figures/abstract.png used on input line 36.
+(pdftex.def)             Requested size: 1991.6929pt x 412.50063pt.
+ <figures/kcl.jpg, id=6, 1027.84pt x 711.65875pt>
+File: figures/kcl.jpg Graphic file (type jpg)
+ <use figures/kcl.jpg>
+Package pdftex.def Info: figures/kcl.jpg used on input line 43.
+(pdftex.def)             Requested size: 287.65208pt x 199.16928pt.
+ <figures/mrc.jpg, id=7, 872.50969pt x 207.77625pt>
+File: figures/mrc.jpg Graphic file (type jpg)
+ <use figures/mrc.jpg>
+Package pdftex.def Info: figures/mrc.jpg used on input line 48.
+(pdftex.def)             Requested size: 358.4369pt x 85.35826pt.
+ <figures/epsrc.png, id=8, 622.325pt x 341.275pt>
+File: figures/epsrc.png Graphic file (type png)
+
+<use figures/epsrc.png>
+Package pdftex.def Info: figures/epsrc.png used on input line 53.
+(pdftex.def)             Requested size: 363.19928pt x 199.16928pt.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <35.83> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 60.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 70.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <24.88> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 70.
+LaTeX Font Info:    Try loading font information for U+msa on input line 72.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 55.
+LaTeX Font Info:    Try loading font information for U+msb on input line 72.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) <figures/abstract.png, id=4, 997.7275pt x 214.8025pt>
-File: figures/abstract.png Graphic file (type png)
- <use figures/abstract.png>
-Package pdftex.def Info: figures/abstract.png used on input line 56.
-(pdftex.def)             Requested size: 1991.6929pt x 428.83698pt.
-
-/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.tex:60: Undefined control sequence.
-l.60 \addtobeamertemplate
-                         {}{}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<figures/kcl.jpg, id=6, 1027.84pt x 711.65875pt>
-File: figures/kcl.jpg Graphic file (type jpg)
- <use figures/kcl.jpg>
-Package pdftex.def Info: figures/kcl.jpg used on input line 63.
-(pdftex.def)             Requested size: 287.65208pt x 199.16928pt.
-
-/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.tex:66: Undefined control sequence.
-l.66 \addtobeamertemplate
-                         {}{}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<figures/mrc.jpg, id=7, 872.50969pt x 207.77625pt>
-File: figures/mrc.jpg Graphic file (type jpg)
- <use figures/mrc.jpg>
-Package pdftex.def Info: figures/mrc.jpg used on input line 69.
-(pdftex.def)             Requested size: 358.4369pt x 85.35826pt.
-
-/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.tex:72: Undefined control sequence.
-l.72 	\addtobeamertemplate
-                          {}{}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<figures/epsrc.png, id=8, 622.325pt x 341.275pt>
-File: figures/epsrc.png Graphic file (type png)
- <use figures/epsrc.png>
-Package pdftex.def Info: figures/epsrc.png used on input line 75.
-(pdftex.def)             Requested size: 363.19928pt x 199.16928pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <35.83> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 92.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 92.
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--94
-
- []
-
-<figures/inference.png, id=9, 509.905pt x 349.305pt>
+) <figures/inference.png, id=9, 509.905pt x 349.305pt>
 File: figures/inference.png Graphic file (type png)
  <use figures/inference.png>
-Package pdftex.def Info: figures/inference.png used on input line 96.
+Package pdftex.def Info: figures/inference.png used on input line 74.
 (pdftex.def)             Requested size: 634.78867pt x 434.8766pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--113
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--113
-
- []
-
-<figures/reduction.png, id=10, 361.35pt x 322.20375pt>
+ <figures/reduction.png, id=10, 361.35pt x 322.20375pt>
 File: figures/reduction.png Graphic file (type png)
  <use figures/reduction.png>
-Package pdftex.def Info: figures/reduction.png used on input line 115.
+Package pdftex.def Info: figures/reduction.png used on input line 93.
 (pdftex.def)             Requested size: 571.30592pt x 509.46474pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--144
-
- []
-
-<figures/population.png, id=11, 581.17125pt x 313.17pt>
+ <figures/population.png, id=11, 581.17125pt x 313.17pt>
 File: figures/population.png Graphic file (type png)
  <use figures/population.png>
-Package pdftex.def Info: figures/population.png used on input line 146.
+Package pdftex.def Info: figures/population.png used on input line 124.
 (pdftex.def)             Requested size: 571.30592pt x 307.87454pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--163
-
- []
-
-<figures/competition.png, id=12, 298.11375pt x 249.93375pt>
+ <figures/competition.png, id=12, 298.11375pt x 249.93375pt>
 File: figures/competition.png Graphic file (type png)
  <use figures/competition.png>
-Package pdftex.def Info: figures/competition.png used on input line 165.
+Package pdftex.def Info: figures/competition.png used on input line 143.
 (pdftex.def)             Requested size: 571.30592pt x 479.05121pt.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 169.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 147.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
 )
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <24.88> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 169.
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <24.88> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 147.
  <figures/motivation.png, id=13, 632.3625pt x 740.7675pt>
 File: figures/motivation.png Graphic file (type png)
  <use figures/motivation.png>
-Package pdftex.def Info: figures/motivation.png used on input line 181.
+Package pdftex.def Info: figures/motivation.png used on input line 159.
 (pdftex.def)             Requested size: 628.44426pt x 736.2331pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--186
-
- []
-
-(/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.bbl
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--32
-[]\OT1/ptm/m/n/29.86 Martin Loose, Elis-a-beth Fischer-Friedrich,
- []
-
-)
-Overfull \vbox (11.00632pt too high) has occurred while \output is active []
-
- [1
+ (/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.bbl
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no “ in font pplr7t!
+) [1
 
 
 Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/gszep/Documents/presentations/biochemical-networks-poster/figures/abstract.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/kcl.jpg> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/mrc.jpg> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/epsrc.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/inference.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/reduction.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/population.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/competition.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/motivation.png>] (/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.aux) ) 
 Here is how much of TeX's memory you used:
- 15839 strings out of 493029
- 318211 string characters out of 6136234
- 389887 words of memory out of 5000000
- 19067 multiletter control sequences out of 15000+600000
- 31298 words of font info for 74 fonts, out of 8000000 for 9000
+ 15825 strings out of 493029
+ 318007 string characters out of 6136234
+ 381893 words of memory out of 5000000
+ 19054 multiletter control sequences out of 15000+600000
+ 20249 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,9n,73p,839b,586s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,9n,73p,867b,586s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8
-r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.pdf (1 page, 524431 bytes).
+r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on /home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.pdf (1 page, 538809 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
