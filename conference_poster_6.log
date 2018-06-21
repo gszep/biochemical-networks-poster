@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.22)  21 JUN 2018 09:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.22)  21 JUN 2018 10:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -525,96 +525,172 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <74.3> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 33.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 26.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <51.6> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 35.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 28.
  <figures/abstract.png, id=4, 1017.8025pt x 210.7875pt>
 File: figures/abstract.png Graphic file (type png)
  <use figures/abstract.png>
-Package pdftex.def Info: figures/abstract.png used on input line 36.
+Package pdftex.def Info: figures/abstract.png used on input line 29.
 (pdftex.def)             Requested size: 1991.6929pt x 412.50063pt.
  <figures/kcl.jpg, id=6, 1027.84pt x 711.65875pt>
 File: figures/kcl.jpg Graphic file (type jpg)
  <use figures/kcl.jpg>
-Package pdftex.def Info: figures/kcl.jpg used on input line 43.
+Package pdftex.def Info: figures/kcl.jpg used on input line 36.
 (pdftex.def)             Requested size: 287.65208pt x 199.16928pt.
- <figures/mrc.jpg, id=7, 872.50969pt x 207.77625pt>
+ <figures/mrc.jpg, id=7, 266.9975pt x 130.4875pt>
 File: figures/mrc.jpg Graphic file (type jpg)
  <use figures/mrc.jpg>
-Package pdftex.def Info: figures/mrc.jpg used on input line 48.
-(pdftex.def)             Requested size: 358.4369pt x 85.35826pt.
+Package pdftex.def Info: figures/mrc.jpg used on input line 41.
+(pdftex.def)             Requested size: 349.31703pt x 170.71652pt.
  <figures/epsrc.png, id=8, 622.325pt x 341.275pt>
 File: figures/epsrc.png Graphic file (type png)
 
 <use figures/epsrc.png>
-Package pdftex.def Info: figures/epsrc.png used on input line 53.
+Package pdftex.def Info: figures/epsrc.png used on input line 46.
 (pdftex.def)             Requested size: 363.19928pt x 199.16928pt.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <35.83> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 60.
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 70.
-LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <24.88> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 70.
-LaTeX Font Info:    Try loading font information for U+msa on input line 72.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 53.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <51.6> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 64.
+LaTeX Font Info:    Try loading font information for U+msa on input line 66.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 72.
+LaTeX Font Info:    Try loading font information for U+msb on input line 66.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) <figures/inference.png, id=9, 509.905pt x 349.305pt>
 File: figures/inference.png Graphic file (type png)
  <use figures/inference.png>
-Package pdftex.def Info: figures/inference.png used on input line 74.
-(pdftex.def)             Requested size: 634.78867pt x 434.8766pt.
- <figures/reduction.png, id=10, 361.35pt x 322.20375pt>
+Package pdftex.def Info: figures/inference.png used on input line 68.
+(pdftex.def)             Requested size: 2104.36601pt x 1442.00418pt.
+ [1
+
+
+Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/gszep/Documents/presentations/biochemical-networks-poster/figures/abstract.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/kcl.jpg> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/mrc.jpg> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/epsrc.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/inference.png>] <figures/reduction.png, id=21, 361.35pt x 322.20375pt>
 File: figures/reduction.png Graphic file (type png)
  <use figures/reduction.png>
-Package pdftex.def Info: figures/reduction.png used on input line 93.
-(pdftex.def)             Requested size: 571.30592pt x 509.46474pt.
- <figures/population.png, id=11, 581.17125pt x 313.17pt>
+Package pdftex.def Info: figures/reduction.png used on input line 87.
+(pdftex.def)             Requested size: 1893.91656pt x 1689.20071pt.
+
+
+/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.tex:97: Package multicol Error: \columnbreak outside multicols.
+
+See the multicol package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 \columnbreak
+                 
+This command can only be used within a multicols or multicols* environment.
+
+<figures/population.png, id=22, 581.17125pt x 313.17pt>
 File: figures/population.png Graphic file (type png)
  <use figures/population.png>
-Package pdftex.def Info: figures/population.png used on input line 124.
-(pdftex.def)             Requested size: 571.30592pt x 307.87454pt.
- <figures/competition.png, id=12, 298.11375pt x 249.93375pt>
+Package pdftex.def Info: figures/population.png used on input line 118.
+(pdftex.def)             Requested size: 1893.91656pt x 1020.63365pt.
+ [2 </home/gszep/Documents/presentations/biochemical-networks-poster/figures/reduction.png>]
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 133.
+ <figures/competition.png, id=27, 298.11375pt x 249.93375pt>
 File: figures/competition.png Graphic file (type png)
  <use figures/competition.png>
-Package pdftex.def Info: figures/competition.png used on input line 143.
-(pdftex.def)             Requested size: 571.30592pt x 479.05121pt.
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 147.
+Package pdftex.def Info: figures/competition.png used on input line 137.
+(pdftex.def)             Requested size: 1893.91656pt x 1588.43079pt.
+ [3 </home/gszep/Documents/presentations/biochemical-networks-poster/figures/population.png>]
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 141.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <24.88> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 147.
- <figures/motivation.png, id=13, 632.3625pt x 740.7675pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 141.
+
+
+/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.tex:147: Package multicol Error: \columnbreak outside multicols.
+
+See the multicol package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \columnbreak
+                  
+This command can only be used within a multicols or multicols* environment.
+
+<figures/motivation.png, id=34, 632.3625pt x 740.7675pt>
 File: figures/motivation.png Graphic file (type png)
  <use figures/motivation.png>
-Package pdftex.def Info: figures/motivation.png used on input line 159.
-(pdftex.def)             Requested size: 628.44426pt x 736.2331pt.
- (/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.bbl
+Package pdftex.def Info: figures/motivation.png used on input line 153.
+(pdftex.def)             Requested size: 2083.33391pt x 2440.9007pt.
+ [4 </home/gszep/Documents/presentations/biochemical-networks-poster/figures/competition.png>]
+
+/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.tex:189: LaTeX Error: \begin{document} ended by \end{multicols}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.189 \end{multicols}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.tex:189: Extra \endgroup.
+\endmulticols ... \@checkend {multicols}\endgroup 
+                                                  \global \c@unbalance \z@ \...
+l.189 \end{multicols}
+                     
+Things are pretty mixed up, but I think the worst is over.
+
+
+/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.tex:189: LaTeX Error: \begin{document} ended by \end{multicols}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.189 \end{multicols}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.tex:189: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.189 \end{multicols}
+                     
+Things are pretty mixed up, but I think the worst is over.
+
+(/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.bbl
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no “ in font pplr7t!
-) [1
+) (/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.aux)
+/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.tex:197: Output loop---100 consecutive dead cycles.
+<to be read again> 
+                   \@@end 
+l.197 \end{document}
+                    
+I've concluded that your \output is awry; it never does a
+\shipout, so I'm shipping \box255 out myself. Next time
+increase \maxdeadcycles if you want me to be more patient!
 
-
-Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/gszep/Documents/presentations/biochemical-networks-poster/figures/abstract.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/kcl.jpg> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/mrc.jpg> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/epsrc.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/inference.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/reduction.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/population.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/competition.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/motivation.png>] (/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.aux) ) 
+[5] ) 
 Here is how much of TeX's memory you used:
- 15825 strings out of 493029
- 318007 string characters out of 6136234
- 381893 words of memory out of 5000000
- 19054 multiletter control sequences out of 15000+600000
- 20249 words of font info for 59 fonts, out of 8000000 for 9000
+ 15834 strings out of 493029
+ 318128 string characters out of 6136234
+ 363893 words of memory out of 5000000
+ 19063 multiletter control sequences out of 15000+600000
+ 23769 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,9n,73p,867b,586s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8
-r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.pdf (1 page, 538809 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on /home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.pdf (5 pages, 433719 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 67 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

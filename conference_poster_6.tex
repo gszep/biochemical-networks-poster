@@ -20,14 +20,7 @@
 \begin{document}
 
 %----------------------------------------------------------------------------------------
-%	POSTER HEADER
-%----------------------------------------------------------------------------------------
-
-% The header is divided into two boxes:
-% The first is 75% wide and houses the title, subtitle, names, university/organization and contact information
-% The second is 25% wide and houses a logo for your university/organization or a photo of you
-% The widths of these boxes can be easily edited to accommodate your content as you see fit
-
+% title and authors
 \begin{minipage}[b]{0.99\linewidth}
 	\begin{center}
 		\veryHuge \color{DarkRed} \textbf{Reverse-engineering natural computation} \color{Black}\\ % Title
@@ -44,21 +37,22 @@
   \end{tikzpicture}}
 
 {\begin{tikzpicture}[remember picture, overlay]
-     \node [anchor=north east, inner sep=6cm]  at (83,34)
-     {\includegraphics[height=3cm]{mrc}};
+     \node [anchor=north east, inner sep=6cm]  at (81,34)
+     {\includegraphics[height=6cm]{mrc}};
   \end{tikzpicture}}
 
 {\begin{tikzpicture}[remember picture, overlay]
      \node [anchor=south west, inner sep=6cm]  at (58,-89)
      {\includegraphics[height=7cm]{epsrc}};
   \end{tikzpicture}}
+\vspace{-4cm}
 
 %----------------------------------------------------------------------------------------
-\vspace{-4cm}
-\begin{multicols}{3} % This is how many columns your poster will be broken into, a portrait poster is generally split into 2 columns
 
-\section*{1 Evolution of response behaviour}
-
+\color{DarkRed}\begin{center}
+\section*{\huge Evolution of response behaviour}
+\end{center}\color{Black}
+\huge
 Specific mappings have been explored between between algorithms, electrical
 engineering circuits and chemical reaction networks \cite{Dalchau2014ComputationalNetworks}. Understanding function
 of large biochemical networks from a computer science perspective guides experiments
