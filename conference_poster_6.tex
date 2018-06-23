@@ -28,175 +28,104 @@
 		\Huge\textit{using reaction-diffusion approaches beyond linear stability}\\[2.4cm] % Subtitle
 		\huge \textbf{Gregory Sz\'ep, Luca Cardelli, Attila Csik\'asz-Nagy}\\[0.5cm]
 		\vspace{1cm}\includegraphics[width=70cm]{abstract}
+		\center{mappings between levels of abstraction from biological process to algorithm}
 	\end{center}
 \end{minipage}
 
 % organisation logos
 {\begin{tikzpicture}[remember picture, overlay]
-     \node [anchor=north west, inner sep=6cm]  at (-8,34)
-     {\includegraphics[height=7cm]{kcl}};
-  \end{tikzpicture}}
+	\node [anchor=north west, inner sep=6cm]  at (-8,37)
+		{\includegraphics[height=7cm]{kcl}};
+\end{tikzpicture}}
 
 {\begin{tikzpicture}[remember picture, overlay]
-     \node [anchor=north east, inner sep=6cm]  at (81,34)
-     {\includegraphics[height=6cm]{mrc}};
-  \end{tikzpicture}}
+	\node [anchor=north east, inner sep=6cm]  at (81,37)
+		{\includegraphics[height=6cm]{mrc}};
+\end{tikzpicture}}
 
 {\begin{tikzpicture}[remember picture, overlay]
-     \node [anchor=south west, inner sep=6cm]  at (58,-89)
-     {\includegraphics[height=7cm]{epsrc}};
-  \end{tikzpicture}}
-\vspace{-3cm}
+	\node [anchor=south west, inner sep=6cm]  at (56,-85)
+		{\includegraphics[height=7cm]{epsrc}};
+\end{tikzpicture}}
+\vspace{-2cm}
 
 % itemized thumbs up/down icons
 \newcommand*\up{\item[{\includegraphics[width=0.75em]{up}}\,\,]}
 \newcommand*\down{\item[{\includegraphics[width=0.75em]{down}}\,\,]}
 
 %----------------------------------------------------------------------------------------
+\LARGE % default text size
 
-\huge
-
-\medbreak
 \begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
-\begin{center}\color{DarkRed}
-\textbf{What is the \textit{minimal} reaction network that obeys a given \textit{response function}?}
-\end{center}
+	\begin{center}
+		\textbf{\color{Grey}Algorithm $\rightarrow$ Dynamical System \color{Black}$|$
+		Given a \textit{response function} what is the \textit{minimal} reaction network?}
+	\end{center}
 \end{tcolorbox}
 
 \begin{itemize}[leftmargin=5cm]
-	\up Mappings between between algorithms and biochemical reaction networks have been\\
-	explored to pave the path towards molecular programming in cells \cite{Dalchau2018ComputingClocks}
-	\up Synthetic biology and in-vitro reconstructive approaches \cite{Loose2011MinMinE}
-	enable scientists to probe the validity of proposed reaction networks
-	\down Model selection routines \cite{Mangan2017ModelCriteria} usually require computationally expensive enumeration-integration loops and the inclusion of prior knowledge is nontrivial.
-	\down No general mapping exists that takes model selection into consideration
-\end{itemize}
-guides experiments
-\begin{center}
-\includegraphics[width=0.2\linewidth]{inference}
-\end{center}\noindent
-The function of known biochemical networks such as the MAPK pathway,
-circadian rhythms and cell-cycles can be understood in terms of simple
-response functions; decomposition of large networks into switches and
-clocks are proposed in literature.
-\medbreak\medbreak\noindent
-The networks found in nature are far from the least complicated realisations
-of particular response functions. The additional complexity can be
-explained by molecular evolutionary paths towards robust biological function
-\cite{Daniels2008SloppinessBiology}.
-\medbreak
-\begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
-\begin{center}\color{DarkRed}
-\textbf{Can model reduction methods \cite{Cardelli2016NoiseSwitches} identify relevant components,
-parameters and reduce complexity in reaction networks?}
-\end{center}
-\end{tcolorbox}
-\begin{center}
-\includegraphics[width=0.9\linewidth]{reduction}
-\end{center}
-\begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
-\begin{center}\color{DarkRed}
-\textbf{Using measures of relative complexity between two given networks,
-can we construct evolutionary trees and understand how primitive switches
-and clocks evolved?}
-\end{center}
-\end{tcolorbox}
-
-\section*{2 Patterns in dynamic populations}
-Ever since Turing formulated the differential diffusion condition \cite{}
-for pattern formation, whether a biological pattern is truly driven by a
-diffusion instability or not has been a matter of debate and speculation.
-\medbreak\medbreak\noindent
-It is conceivable that the differential diffusion condition is satisfied
-by the time-scale separation between cytosolic, membrane and inter-cellular
-reactions.
-\medbreak\medbreak\noindent
-Finite element reaction-diffusion simulations can take these effects into
-account explicity at an enourmous computational cost, which leads researches to
-resort to more abstract Kuramoto-type models.
-\medbreak
-\begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
-\begin{center}\color{DarkRed}
-\textbf{Can we construct a computationally tractable reaction-diffusion model
-that takes cell division and death into account?}
-\end{center}
-\end{tcolorbox}
-\begin{center}
-\includegraphics[width=0.9\linewidth]{population}
-\end{center}
-\large\begin{align*}
-	\partial_t\rho=\partial_x^2(D\rho)+R(\rho)\qquad
-	\partial_tD=?
-\end{align*}
-\normalsize
-Evolution of biochemical chemical networks is not just driven by random mutation,
-but are subject to environmental pressures and competition. Snythetic approaches
-to bacterial competition experiments \cite{} allow us to probe the fitness of
-different chemical networks.
-\medbreak
-\begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
-\begin{center}\color{DarkRed}
-\textbf{How to we model competition between cell types that contain
-different reaction networks?}
-\end{center}
-\end{tcolorbox}
-\begin{center}
-\includegraphics[width=0.9\linewidth]{competition}
-\end{center}
-\section*{4 Outlook}
-\begin{itemize}
-	\item Help synthetic biologists
-	\item Help systems biologists
-	\item Help evolutionary biologists
-	\item Do theory; be happy
+	\up Mappings between algorithms and reaction networks
+	pave the path towards programming in cells \cite{Dalchau2018ComputingClocks}
+	% \up Experimentally determined response functions probe of the validity ofproposed networks \cite{Loose2011MinMinE}
+	% \down Model selection is computationally expensive \cite{Mangan2017ModelCriteria} and including prior knowledge is nontrivial
+	\down No general mapping exists that takes model complexity into consideration
 \end{itemize}
 
-\section*{3 Geometrisation approach}
-Recent advances in the theory of pattern formation \cite{Halatek2018} suggest that
-the dynamics of \textit{local equilibria} provide general insight into pattern
-formation beyond linear stability analysis.
-\begin{center}
-\includegraphics[width=0.99\linewidth]{motivation}
-\end{center}
-Such a theory requires a descritption of the system in phase space, moving in
-harmony with reactive and diffusive forces. Below I present preliminary equations
-of motion:\medbreak
-\large\begin{align*}
-	\partial_k\left(R(k)\Gamma(k)\right)+\partial_k^2 V(k)=0\qquad\quad
-	\\\\
-	\Gamma(k,t):=\int_{\mathbb{R}^M}\!\delta(k-\rho(x,t))\,\mathrm{d}x\qquad\quad
-	\\
-	V(k,t):=D\int_{\mathbb{R}^M}\!
-		(\partial_x\rho(x,t))^2\,\delta(k-\rho(x,t))\,\mathrm{d}x
-\end{align*}
+\begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
+	\begin{center}
+		\textbf{\color{Grey}Biological Process $\rightarrow$ System \color{Black}$|$
+		What is the general routine for \textit{reducing complexity} in reaction networks?}
+	\end{center}
+\end{tcolorbox}
 
-% %----------------------------------------------------------------------------------------
-% %	CONCLUSIONS
-% %----------------------------------------------------------------------------------------
-%
-% \color{SaddleBrown} % SaddleBrown color for the conclusions to make them stand out
-%
-% \section*{Conclusions}
-% Despite being a petroleum- and gas-rich country, Algeria is making efforts to exploit its renewable energies. The Algerian government has adopted new renewable energy laws and financial support for the investors to facilitate the exploitation of the renewable energies for electricity production and direct utilizations. Algeria has relatively abundant geothermal resources especially in the northeastern parts but not totally used.
-% \color{Black} % Set the color back to DarkSlateGray for the rest of the content
-%
-% %----------------------------------------------------------------------------------------
-% %	FORTHCOMING RESEARCH
-% %----------------------------------------------------------------------------------------
-%
-% \section*{Forthcoming Research}
-%
-% Simulation of thermodynamic properties of the thermal fluid and power output with longevity using geological, hydrogeological, and geothermal data from NE-Algerian geothermal reservoirs.
-%
-%  %----------------------------------------------------------------------------------------
-% %	REFERENCES
-% %----------------------------------------------------------------------------------------
-%
+\begin{itemize}[leftmargin=5cm]
+	\up Time-scale separation allows reduction of component number; introducing delays and nonlinearity
+	\down There exist no dimensionality reduction and parameter relevance methods for reaction networks
+\end{itemize}
+
+\begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
+	\begin{center}
+		\textbf{\color{Grey}Biological Process $\rightarrow$ Dynamical System \color{Black}$|$
+		How do network motifs such as \textit{switches and clocks} evolve?}
+	\end{center}
+\end{tcolorbox}
+
+\begin{itemize}[leftmargin=5cm]
+	\up Relationship between robustness and evolvability has been investigated \cite{Daniels2008SloppinessBiology}
+	\down Evolutionary relationships between different chemical networks have not been quantified
+\end{itemize}
+
+\begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
+	\begin{center}
+		\textbf{\color{Grey}Dynamical System \color{Black}$|$
+		Given a \textit{steady state pattern} what is the \textit{minimal} reaction-diffusion network?}
+	\end{center}
+\end{tcolorbox}
+
+\begin{itemize}[leftmargin=5cm]
+	\up Dynamics of local equilibria show promising analysis beyond linear stability \cite{Halatek2018}
+	\down Need to design attractors in phase space; no description in phase space exists
+\end{itemize}
+
+\begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
+	\begin{center}
+		\textbf{\color{Grey}Biological Process $\rightarrow$ Dynamical System \color{Black}$|$
+		How do patterns form across \textit{growing cell populations}?}
+	\end{center}
+\end{tcolorbox}
+
+\begin{itemize}[leftmargin=5cm]
+	\up Differential diffusion between cytosolic, membrane and inter-cellular components give rise to patterns
+	\down Finite element reaction-diffusion simulations are computationally expensive
+\end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+\vfill\normalsize
 
 \begin{minipage}[t][][b]{0.99\textwidth}
-\bibliographystyle{style} % Plain referencing style
-\bibliography{mendeley_v2} % Use the example bibliography file sample.bib
+	\bibliographystyle{style}
+	\bibliography{mendeley_v2}
 \end{minipage}
-%----------------------------------------------------------------------------------------
 
 \end{document}

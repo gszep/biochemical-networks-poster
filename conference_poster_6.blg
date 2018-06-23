@@ -15,47 +15,44 @@ Reallocated ex_buf (elt_size=1) to 60000 items from 40000.
 Reallocated out_buf (elt_size=1) to 60000 items from 40000.
 Reallocated name_tok (elt_size=4) to 60000 items from 40000.
 Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
-Warning--empty journal in DanielsSloppinessBiology
-Warning--empty year in DanielsSloppinessBiology
-You've used 5 entries,
+You've used 3 entries,
             1807 wiz_defined-function locations,
-            479 strings with 4700 characters,
-and the built_in function-call counts, 801 in all, are:
-= -- 66
-> -- 61
+            469 strings with 4251 characters,
+and the built_in function-call counts, 484 in all, are:
+= -- 41
+> -- 35
 < -- 0
-+ -- 28
-- -- 14
-* -- 44
-:= -- 161
-add.period$ -- 14
-call.type$ -- 5
-change.case$ -- 5
++ -- 16
+- -- 8
+* -- 25
+:= -- 100
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 7
-duplicate$ -- 30
-empty$ -- 51
-format.name$ -- 14
-if$ -- 164
+cite$ -- 3
+duplicate$ -- 18
+empty$ -- 31
+format.name$ -- 8
+if$ -- 99
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 5
-newline$ -- 27
-num.names$ -- 5
-pop$ -- 9
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 18
+num.names$ -- 3
+pop$ -- 4
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 19
+skip$ -- 11
 stack$ -- 0
 substring$ -- 0
-swap$ -- 4
+swap$ -- 3
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 5
-width$ -- 6
-write$ -- 49
-(There were 2 warnings)
+warning$ -- 0
+while$ -- 3
+width$ -- 4
+write$ -- 32

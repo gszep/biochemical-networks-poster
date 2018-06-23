@@ -5,20 +5,10 @@ Neil Dalchau, Gregory Sz{\'{e}}p, et~al.
 \newblock {Computing with biological switches and clocks}.
 \newblock {\em Natural Computing}, 6 2018.
 
-\bibitem{Loose2011MinMinE}
-Martin Loose, Elisabeth Fischer-Friedrich, et~al.
-\newblock {Min protein patterns emerge from rapid rebinding and membrane
-  interaction of MinE}.
-\newblock {\em Nature Structural {\&} Molecular Biology}, 5 2011.
-
-\bibitem{DanielsSloppinessBiology}
+\bibitem{Daniels2008SloppinessBiology}
 Bryan~C Daniels, Yan-Jiun Chen, et~al.
 \newblock {Sloppiness, robustness and evolvability in systems biology}.
-
-\bibitem{Cardelli2016NoiseSwitches}
-Luca Cardelli, Attila Csik{\'{a}}sz-Nagy, et~al.
-\newblock {Noise Reduction in Complex Biological Switches}.
-\newblock {\em Scientific Reports}, 2016.
+\newblock {\em Current Opinion in Biotechnology}, 2008.
 
 \bibitem{Halatek2018}
 J.~Halatek and E.~Frey.
