@@ -17,6 +17,7 @@
 
 \usepackage{amsfonts, amsmath, amsthm, amssymb} % For math fonts, symbols and environments
 \usepackage{wrapfig} % Allows wrapping text around tables and figures
+\usepackage{mathtools}
 
 \begin{document}
 
@@ -49,6 +50,7 @@
 \end{tikzpicture}}
 \vspace{-2cm}
 
+
 % itemized thumbs up/down icons
 \newcommand*\up{\item[{\includegraphics[width=0.75em]{up}}\,\,]}
 \newcommand*\down{\item[{\includegraphics[width=0.75em]{down}}\,\,]}
@@ -66,10 +68,17 @@
 \begin{itemize}[leftmargin=5cm]
 	\up Mappings between algorithms and reaction networks
 	pave the path towards programming in cells \cite{Dalchau2018ComputingClocks}
+	\up Dynamical structure function and Granger causality methods reconstruct networks from data
 	% \up Experimentally determined response functions probe of the validity ofproposed networks \cite{Loose2011MinMinE}
 	% \down Model selection is computationally expensive \cite{Mangan2017ModelCriteria} and including prior knowledge is nontrivial
 	\down No general mapping exists that takes model complexity into consideration
 \end{itemize}
+
+\begin{align*}
+	\partial_t\rho =
+	\overbracket[2pt][10pt]{R(\rho)}^{\text{reaction}}+
+	\underbracket[2pt][10pt]{S(t)}_{\text{source}}
+\end{align*}
 
 \begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
 	\begin{center}
