@@ -3,7 +3,7 @@
 \columnsep=100pt % This is the amount of white space between the columns in the poster
 \columnseprule=3pt % This is the thickness of the black line between the columns in the poster
 
-\usepackage[svgnames]{xcolor} % Specify colors by their 'svgnames', for a full list of all colors available see here: http://www.latextemplates.com/svgnames-colors
+\usepackage[svgnames,dvipsnames]{xcolor} % Specify colors by their 'svgnames', for a full list of all colors available see here: http://www.latextemplates.com/svgnames-colors
 \usepackage{tcolorbox} % coloured boxing of sections
 \usepackage{tikz} % manual placement of logos
 \usepackage{palatino} % use the Palatino font
@@ -20,12 +20,13 @@
 \usepackage{mathtools}
 
 \begin{document}
+\newcommand{\code}{\texttt}
 
 %----------------------------------------------------------------------------------------
 % title and authors
-\begin{minipage}[b]{0.99\linewidth}
+\begin{minipage}[b]{1\linewidth}
 	\begin{center}
-		\veryHuge \color{DarkRed} \textbf{Using bacterial colonies for computations} \color{Black}\\ % Title
+		\veryHuge \color{DarkRed} \textbf{Using cell colonies for computations} \color{Black}\\ % Title
 		\Huge\textit{by reverse-engineering reaction-diffusion systems}\\[2.4cm] % Subtitle
 		\huge \textbf{Gregory Sz\'ep, Luca Cardelli, Attila Csik\'asz-Nagy}\\[0.5cm]
 		\vspace{1cm}\includegraphics[width=70cm]{abstract}
@@ -35,12 +36,12 @@
 
 % organisation logos
 {\begin{tikzpicture}[remember picture, overlay]
-	\node [anchor=north west, inner sep=6cm]  at (-8,37)
+	\node [anchor=north west, inner sep=6cm]  at (-5,36)
 		{\includegraphics[height=7cm]{kcl}};
 \end{tikzpicture}}
 
 {\begin{tikzpicture}[remember picture, overlay]
-	\node [anchor=north east, inner sep=6cm]  at (81,37)
+	\node [anchor=north east, inner sep=6cm]  at (79,36)
 		{\includegraphics[height=6cm]{mrc}};
 \end{tikzpicture}}
 
@@ -48,16 +49,59 @@
 	\node [anchor=south west, inner sep=6cm]  at (56,-85)
 		{\includegraphics[height=7cm]{epsrc}};
 \end{tikzpicture}}
-\vspace{-2cm}
+\LARGE
 
+% figure abstract titles
+{\begin{tikzpicture}[remember picture, overlay]
+	\node [text width=12cm] at (14,12)
+		{\begin{center}\textbf{BIOLOGICAL PROCESS}\end{center}};
+\end{tikzpicture}}
+
+{\begin{tikzpicture}[remember picture, overlay]
+	\node [text width=12cm] at (40,14)
+		{\begin{center}\textbf{DYNAMICAL SYSTEM}\end{center}};
+\end{tikzpicture}}
+
+{\begin{tikzpicture}[remember picture, overlay]
+	\node [text width=12cm] at (66,17)
+		{\begin{center}\textbf{ALGORITHM}\end{center}};
+\end{tikzpicture}}
+
+% algorithm code snippet
+{\begin{tikzpicture}[remember picture, overlay]
+	\node [text width=18cm] at (64.5,23.5)
+		{\code{\textbf{
+		for \textcolor{DarkBlue}{i} in \textcolor{DarkBlue}{set} : \\
+		\qquad do \textcolor{Emerald}{this} ; \\
+		\qquad if \textcolor{OliveGreen}{this} then...
+		}}};
+\end{tikzpicture}}
+
+% arrow captions
+{\begin{tikzpicture}[remember picture, overlay]
+	\node [text width=12cm] at (24.5,20.5)
+		{\begin{center}\textbf{\textcolor{Gray}{synthetic biology}}\end{center}};
+\end{tikzpicture}}
+
+{\begin{tikzpicture}[remember picture, overlay]
+	\node [text width=10cm] at (23,29)
+		{\begin{center}\textbf{\textcolor{Gray}{systems biology}}\end{center}};
+\end{tikzpicture}}
+
+{\begin{tikzpicture}[remember picture, overlay]
+	\node [text width=10cm] at (47,31)
+		{\begin{center}\textbf{\textcolor{Gray}{natural computation}}\end{center}};
+\end{tikzpicture}}
+
+\vspace{-16cm}
 
 % itemized thumbs up/down icons
 \newcommand*\up{\item[{\includegraphics[width=0.75em]{up}}\,\,]}
 \newcommand*\down{\item[{\includegraphics[width=0.75em]{down}}\,\,]}
 
 %----------------------------------------------------------------------------------------
-\LARGE % default text size
-can a bacterium perform a fast Fourier transform?
+ % default text size
+Can bacterial colonies perform a fourier transform?
 What does a bacteria do? How would we manipulate it?
 
 Bacteria already perform computations

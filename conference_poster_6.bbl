@@ -1,9 +1,24 @@
 \begin{thebibliography}{1}
 
+\bibitem{Galagali2016BayesianNetworks}
+Nikhil Galagali.
+\newblock {Bayesian inference of chemical reaction networks}.
+\newblock 2016.
+
 \bibitem{Dalchau2018ComputingClocks}
 Neil Dalchau, Gregory Sz{\'{e}}p, et~al.
 \newblock {Computing with biological switches and clocks}.
 \newblock {\em Natural Computing}, 6 2018.
+
+\bibitem{Phillies2000ProjectionFormalism}
+George~D.J. Phillies.
+\newblock {Projection Operators and the Mori-Zwanzig Formalism}.
+\newblock {\em Springer, New York, NY}, 2000.
+
+\bibitem{Cardelli2016NoiseSwitches}
+Luca Cardelli, Attila Csik{\'{a}}sz-Nagy, et~al.
+\newblock {Noise Reduction in Complex Biological Switches}.
+\newblock {\em Scientific Reports}, 2016.
 
 \bibitem{Daniels2008SloppinessBiology}
 Bryan~C Daniels, Yan-Jiun Chen, et~al.
