@@ -25,8 +25,8 @@
 % title and authors
 \begin{minipage}[b]{0.99\linewidth}
 	\begin{center}
-		\veryHuge \color{DarkRed} \textbf{Reverse-engineering natural computation} \color{Black}\\ % Title
-		\Huge\textit{using reaction-diffusion approaches beyond linear stability}\\[2.4cm] % Subtitle
+		\veryHuge \color{DarkRed} \textbf{Using bacterial colonies for computations} \color{Black}\\ % Title
+		\Huge\textit{by reverse-engineering reaction-diffusion systems}\\[2.4cm] % Subtitle
 		\huge \textbf{Gregory Sz\'ep, Luca Cardelli, Attila Csik\'asz-Nagy}\\[0.5cm]
 		\vspace{1cm}\includegraphics[width=70cm]{abstract}
 		\center{mappings between levels of abstraction from biological process to algorithm}
@@ -57,6 +57,18 @@
 
 %----------------------------------------------------------------------------------------
 \LARGE % default text size
+can a bacterium perform a fast Fourier transform?
+What does a bacteria do? How would we manipulate it?
+
+Bacteria already perform computations
+eg chemotaxis, lac system
+experimental figure + odes + network
+
+genetic manipulation can supress/activate network segments
+We can cut-and-paste different network sections
+- synthetic biology approaches
+
+Can we cut-and-paste the right networks together to perform any arbitrary caclulation?
 
 \begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
 	\begin{center}
@@ -66,44 +78,54 @@
 \end{tcolorbox}
 
 \begin{itemize}[leftmargin=5cm]
-	\up Mappings between algorithms and reaction networks
-	pave the path towards programming in cells \cite{Dalchau2018ComputingClocks}
-	\up Dynamical structure function and Granger causality methods reconstruct networks from data
-	% \up Experimentally determined response functions probe of the validity ofproposed networks \cite{Loose2011MinMinE}
-	% \down Model selection is computationally expensive \cite{Mangan2017ModelCriteria} and including prior knowledge is nontrivial
+	\up Methods for the probabilistic inference of reaction networks exist \cite{Galagali2016BayesianNetworks}
+	\up Mappings to and from algorithms pave the path towards programming in cells \cite{Dalchau2018ComputingClocks}
 	\down No general mapping exists that takes model complexity into consideration
 \end{itemize}
 
 \begin{align*}
-	\partial_t\rho =
+	\partial_t\bar{\mathrm{p}}(t)\;\;=
 	\overbracket[2pt][10pt]{R(\rho)}^{\text{reaction}}+
 	\underbracket[2pt][10pt]{S(t)}_{\text{source}}
 \end{align*}
+% $R(\rho)$ is a vector, multinomial in the components of $\rho$
+
+
+%----------------------------------------------------------------------------------------
+\begin{multicols}{2}
 
 \begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
 	\begin{center}
-		\textbf{\color{Grey}Biological Process $\rightarrow$ System \color{Black}$|$
+		\textbf{
 		What is the general routine for \textit{reducing complexity} in reaction networks?}
 	\end{center}
 \end{tcolorbox}
 
 \begin{itemize}[leftmargin=5cm]
-	\up Time-scale separation allows reduction of component number; introducing delays and nonlinearity
-	\down There exist no dimensionality reduction and parameter relevance methods for reaction networks
+	\up For \textit{known time-scale separations} one can reduce models, introducing memory effects~\cite{Phillies2000ProjectionFormalism}
+	\down There exist \textit{no relevance determination} methods beyond
+	empirical sensitivity analysis~\cite{Cardelli2016NoiseSwitches}
 \end{itemize}
+
+\vfill
+\columnbreak
 
 \begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
 	\begin{center}
-		\textbf{\color{Grey}Biological Process $\rightarrow$ Dynamical System \color{Black}$|$
-		How do network motifs such as \textit{switches and clocks} evolve?}
+		\textbf{
+		How does evolution lead to \textit{complexity increase} in network motifs such as switches and clocks?}
 	\end{center}
 \end{tcolorbox}
 
 \begin{itemize}[leftmargin=5cm]
-	\up Relationship between robustness and evolvability has been investigated \cite{Daniels2008SloppinessBiology}
-	\up Sensitivity analysis has been applied to 
+	\up Relationship between robustness and \\evolvability has been investigated \cite{Daniels2008SloppinessBiology}
 	\down Evolutionary relationships between different chemical networks have not been quantified
 \end{itemize}
+
+\vfill
+\end{multicols}
+\vspace{1cm}
+%----------------------------------------------------------------------------------------
 
 \begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
 	\begin{center}
@@ -117,18 +139,12 @@
 	\down Need to design attractors in phase space; no description in phase space exists
 \end{itemize}
 
-\begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
-	\begin{center}
-		\textbf{\color{Grey}Biological Process $\rightarrow$ Dynamical System \color{Black}$|$
-		How do patterns form across \textit{growing cell populations}?}
-	\end{center}
-\end{tcolorbox}
-
-\begin{itemize}[leftmargin=5cm]
-	\up Differential diffusion between cytosolic, membrane and inter-cellular components give rise to patterns
-	\down Finite element reaction-diffusion simulations are computationally expensive
-\end{itemize}
-
+\begin{align*}
+	\partial_t\rho(t)\;\;=
+	\overbracket[2pt][10pt]{R(\rho)}^{\text{reaction}}+
+	\underbracket[2pt][10pt]{D\,\partial_x^2\rho(t)}_{\text{diffusion}}
+\end{align*}
+$R(\rho)$ is a vector, multinomial in the components of $\rho$
 
 %----------------------------------------------------------------------------------------
 \vfill\normalsize
