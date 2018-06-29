@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.22)  28 JUN 2018 20:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.22)  29 JUN 2018 15:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -567,86 +567,107 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <74.3> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <51.6> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 31.
- <figures/abstract.png, id=4, 1035.87pt x 196.735pt>
+ <figures/abstract.png, id=4, 1231.60126pt x 237.88875pt>
 File: figures/abstract.png Graphic file (type png)
  <use figures/abstract.png>
 Package pdftex.def Info: figures/abstract.png used on input line 32.
-(pdftex.def)             Requested size: 1991.6929pt x 378.30923pt.
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 27--36
-[][] 
- []
-
-<figures/kcl.jpg, id=6, 1027.84pt x 711.65875pt>
+(pdftex.def)             Requested size: 1906.33464pt x 368.24458pt.
+ <figures/kcl.jpg, id=6, 1027.84pt x 711.65875pt>
 File: figures/kcl.jpg Graphic file (type jpg)
  <use figures/kcl.jpg>
-Package pdftex.def Info: figures/kcl.jpg used on input line 40.
+Package pdftex.def Info: figures/kcl.jpg used on input line 39.
 (pdftex.def)             Requested size: 287.65208pt x 199.16928pt.
  <figures/mrc.jpg, id=7, 266.9975pt x 130.4875pt>
 File: figures/mrc.jpg Graphic file (type jpg)
  <use figures/mrc.jpg>
-Package pdftex.def Info: figures/mrc.jpg used on input line 45.
+Package pdftex.def Info: figures/mrc.jpg used on input line 44.
 (pdftex.def)             Requested size: 349.31703pt x 170.71652pt.
  <figures/epsrc.png, id=8, 622.325pt x 341.275pt>
 File: figures/epsrc.png Graphic file (type png)
- <use figures/epsrc.png>
-Package pdftex.def Info: figures/epsrc.png used on input line 50.
+
+<use figures/epsrc.png>
+Package pdftex.def Info: figures/epsrc.png used on input line 49.
 (pdftex.def)             Requested size: 363.19928pt x 199.16928pt.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <43> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 57.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 77.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 56.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 75.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <43> not available
-(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 77.
-LaTeX Font Info:    Try loading font information for U+msa on input line 120.
+(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 75.
+LaTeX Font Info:    Try loading font information for U+msa on input line 105.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 120.
+LaTeX Font Info:    Try loading font information for U+msb on input line 105.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 124.
+ <figures/response-function.png, id=9, 262.9825pt x 254.9525pt>
+File: figures/response-function.png Graphic file (type png)
+ <use figures/response-function.png>
+Package pdftex.def Info: figures/response-function.png used on input line 128.
+(pdftex.def)             Requested size: 352.2061pt x 341.43306pt.
+
+Overfull \hbox (122.24455pt too wide) in paragraph at lines 139--139
+[]  
+ []
+
+<figures/rarrow.png, id=10, 202.7575pt x 52.195pt>
+File: figures/rarrow.png Graphic file (type png)
+ <use figures/rarrow.png>
+Package pdftex.def Info: figures/rarrow.png used on input line 144.
+(pdftex.def)             Requested size: 221.06935pt x 56.9055pt.
+File: figures/rarrow.png Graphic file (type png)
+ <use figures/rarrow.png>
+Package pdftex.def Info: figures/rarrow.png used on input line 154.
+(pdftex.def)             Requested size: 221.06935pt x 56.9055pt.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <43> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 120.
- <figures/up.png, id=9, 91.33698pt x 107.0211pt>
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 166.
+ <figures/up.png, id=11, 91.33698pt x 107.0211pt>
 File: figures/up.png Graphic file (type png)
  <use figures/up.png>
-Package pdftex.def Info: figures/up.png used on input line 125.
+Package pdftex.def Info: figures/up.png used on input line 171.
 (pdftex.def)             Requested size: 32.25pt x 37.7878pt.
-File: figures/up.png Graphic file (type png)
- <use figures/up.png>
-Package pdftex.def Info: figures/up.png used on input line 126.
-(pdftex.def)             Requested size: 32.25pt x 37.7878pt.
- <figures/down.png, id=10, 91.95204pt x 107.32864pt>
+ <figures/down.png, id=12, 91.95204pt x 107.32864pt>
 File: figures/down.png Graphic file (type png)
  <use figures/down.png>
-Package pdftex.def Info: figures/down.png used on input line 127.
+Package pdftex.def Info: figures/down.png used on input line 173.
 (pdftex.def)             Requested size: 32.25pt x 37.64255pt.
 File: figures/up.png Graphic file (type png)
  <use figures/up.png>
-Package pdftex.def Info: figures/up.png used on input line 149.
+Package pdftex.def Info: figures/up.png used on input line 175.
 (pdftex.def)             Requested size: 32.25pt x 37.7878pt.
 File: figures/down.png Graphic file (type png)
  <use figures/down.png>
-Package pdftex.def Info: figures/down.png used on input line 150.
+Package pdftex.def Info: figures/down.png used on input line 177.
 (pdftex.def)             Requested size: 32.25pt x 37.64255pt.
 File: figures/up.png Graphic file (type png)
  <use figures/up.png>
-Package pdftex.def Info: figures/up.png used on input line 165.
+Package pdftex.def Info: figures/up.png used on input line 193.
 (pdftex.def)             Requested size: 32.25pt x 37.7878pt.
 File: figures/down.png Graphic file (type png)
  <use figures/down.png>
-Package pdftex.def Info: figures/down.png used on input line 166.
+Package pdftex.def Info: figures/down.png used on input line 194.
 (pdftex.def)             Requested size: 32.25pt x 37.64255pt.
 File: figures/up.png Graphic file (type png)
  <use figures/up.png>
-Package pdftex.def Info: figures/up.png used on input line 182.
+Package pdftex.def Info: figures/up.png used on input line 209.
 (pdftex.def)             Requested size: 32.25pt x 37.7878pt.
 File: figures/down.png Graphic file (type png)
  <use figures/down.png>
-Package pdftex.def Info: figures/down.png used on input line 183.
+Package pdftex.def Info: figures/down.png used on input line 210.
+(pdftex.def)             Requested size: 32.25pt x 37.64255pt.
+File: figures/up.png Graphic file (type png)
+ <use figures/up.png>
+Package pdftex.def Info: figures/up.png used on input line 226.
+(pdftex.def)             Requested size: 32.25pt x 37.7878pt.
+File: figures/down.png Graphic file (type png)
+ <use figures/down.png>
+Package pdftex.def Info: figures/down.png used on input line 227.
 (pdftex.def)             Requested size: 32.25pt x 37.64255pt.
  (/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.bbl
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <35.83> not available
@@ -657,21 +678,21 @@ Missing character: There is no “ in font pplr7t!
 ) [1
 
 
-Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/gszep/Documents/presentations/biochemical-networks-poster/figures/abstract.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/kcl.jpg> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/mrc.jpg> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/epsrc.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/up.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/down.png>] (/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.aux) ) 
+Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/gszep/Documents/presentations/biochemical-networks-poster/figures/abstract.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/kcl.jpg> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/mrc.jpg> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/epsrc.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/response-function.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/rarrow.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/up.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/down.png>] (/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.aux) ) 
 Here is how much of TeX's memory you used:
- 16688 strings out of 493029
- 332801 string characters out of 6136234
- 390937 words of memory out of 5000000
- 19899 multiletter control sequences out of 15000+600000
- 22525 words of font info for 61 fonts, out of 8000000 for 9000
+ 16716 strings out of 493029
+ 333421 string characters out of 6136234
+ 399243 words of memory out of 5000000
+ 19925 multiletter control sequences out of 15000+600000
+ 22365 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,14n,73p,867b,626s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/u
-crb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.pdf (1 page, 274924 bytes).
+ 54i,21n,73p,867b,689s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on /home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.pdf (1 page, 322808 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
+ 58 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

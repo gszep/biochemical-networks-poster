@@ -24,96 +24,142 @@
 
 %----------------------------------------------------------------------------------------
 % title and authors
-\begin{minipage}[b]{1\linewidth}
+\begin{minipage}[b]{0.99\linewidth}
 	\begin{center}
-		\veryHuge \color{DarkRed} \textbf{Using cell colonies for computations} \color{Black}\\ % Title
-		\Huge\textit{by reverse-engineering reaction-diffusion systems}\\[2.4cm] % Subtitle
+		\veryHuge \color{DarkRed} \textbf{Programming biological systems} \color{Black}\\ % Title
+		\Huge\textit{by reverse-engineering reaction-diffusion}\\[2.4cm] % Subtitle
 		\huge \textbf{Gregory Sz\'ep, Luca Cardelli, Attila Csik\'asz-Nagy}\\[0.5cm]
-		\vspace{1cm}\includegraphics[width=70cm]{abstract}
-		\center{mappings between levels of abstraction from biological process to algorithm}
+		\vspace{1cm}\includegraphics[width=67cm]{abstract}
 	\end{center}
 \end{minipage}
 
 % organisation logos
-{\begin{tikzpicture}[remember picture, overlay]
-	\node [anchor=north west, inner sep=6cm]  at (-5,36)
-		{\includegraphics[height=7cm]{kcl}};
-\end{tikzpicture}}
+\begin{tikzpicture}[remember picture, overlay]
+	\node [anchor=north west, inner sep=6cm]  at (-5,32) {
+		\includegraphics[height=7cm]{kcl}};
+\end{tikzpicture}
 
-{\begin{tikzpicture}[remember picture, overlay]
-	\node [anchor=north east, inner sep=6cm]  at (79,36)
-		{\includegraphics[height=6cm]{mrc}};
-\end{tikzpicture}}
+\begin{tikzpicture}[remember picture, overlay]
+	\node [anchor=north east, inner sep=6cm]  at (79,33) {
+		\includegraphics[height=6cm]{mrc}};
+\end{tikzpicture}
 
-{\begin{tikzpicture}[remember picture, overlay]
-	\node [anchor=south west, inner sep=6cm]  at (56,-85)
-		{\includegraphics[height=7cm]{epsrc}};
-\end{tikzpicture}}
+\begin{tikzpicture}[remember picture, overlay]
+	\node [anchor=south west, inner sep=6cm]  at (56,-89) {
+		\includegraphics[height=7cm]{epsrc}};
+\end{tikzpicture}
 \LARGE
 
 % figure abstract titles
-{\begin{tikzpicture}[remember picture, overlay]
-	\node [text width=12cm] at (14,12)
-		{\begin{center}\textbf{BIOLOGICAL PROCESS}\end{center}};
-\end{tikzpicture}}
+\begin{tikzpicture}[remember picture, overlay]
+	\node [text width=12cm] at (14,10) {
+		\begin{center}\textbf{BIOLOGICAL PROCESS}\end{center}};
+\end{tikzpicture}
 
-{\begin{tikzpicture}[remember picture, overlay]
-	\node [text width=12cm] at (40,14)
-		{\begin{center}\textbf{DYNAMICAL SYSTEM}\end{center}};
-\end{tikzpicture}}
+\begin{tikzpicture}[remember picture, overlay]
+	\node [text width=12cm] at (40,12) {
+		\begin{center}\textbf{DYNAMICAL SYSTEM}\end{center}};
+\end{tikzpicture}
 
-{\begin{tikzpicture}[remember picture, overlay]
-	\node [text width=12cm] at (66,17)
-		{\begin{center}\textbf{ALGORITHM}\end{center}};
-\end{tikzpicture}}
+\begin{tikzpicture}[remember picture, overlay]
+	\node [text width=12cm] at (66,14) {
+		\begin{center}\textbf{ALGORITHM}\end{center}};
+\end{tikzpicture}
 
 % algorithm code snippet
-{\begin{tikzpicture}[remember picture, overlay]
-	\node [text width=18cm] at (64.5,23.5)
-		{\code{\textbf{
-		for \textcolor{DarkBlue}{i} in \textcolor{DarkBlue}{set} : \\
-		\qquad do \textcolor{Emerald}{this} ; \\
-		\qquad if \textcolor{OliveGreen}{this} then...
-		}}};
-\end{tikzpicture}}
+\begin{tikzpicture}[remember picture, overlay]
+	\node [text width=18cm] at (64.5,20) {
+		\code{\textbf{
+			for \textcolor{DarkBlue}{i} in \textcolor{DarkBlue}{set} : \\
+			\qquad do \textcolor{Emerald}{this} ; \\
+			\qquad if \textcolor{OliveGreen}{this} then... }}};
+\end{tikzpicture}
 
 % arrow captions
-{\begin{tikzpicture}[remember picture, overlay]
-	\node [text width=12cm] at (24.5,20.5)
-		{\begin{center}\textbf{\textcolor{Gray}{synthetic biology}}\end{center}};
-\end{tikzpicture}}
+\begin{tikzpicture}[remember picture, overlay]
+	\node [text width=12cm] at (25,17) {
+		\begin{center}\textbf{\textcolor{Gray}{synthetic biology}}\end{center}};
+\end{tikzpicture}
 
-{\begin{tikzpicture}[remember picture, overlay]
-	\node [text width=10cm] at (23,29)
-		{\begin{center}\textbf{\textcolor{Gray}{systems biology}}\end{center}};
-\end{tikzpicture}}
+\begin{tikzpicture}[remember picture, overlay]
+	\node [text width=10cm] at (23,26) {
+		\begin{center}\textbf{\textcolor{Gray}{systems biology}}\end{center}};
+\end{tikzpicture}
 
-{\begin{tikzpicture}[remember picture, overlay]
-	\node [text width=10cm] at (47,31)
-		{\begin{center}\textbf{\textcolor{Gray}{natural computation}}\end{center}};
-\end{tikzpicture}}
+\begin{tikzpicture}[remember picture, overlay]
+	\node [text width=10cm] at (47,28) {
+		\begin{center}\textbf{\textcolor{Gray}{natural computation}}\end{center}};
+\end{tikzpicture}
 
 \vspace{-16cm}
 
 % itemized thumbs up/down icons
 \newcommand*\up{\item[{\includegraphics[width=0.75em]{up}}\,\,]}
 \newcommand*\down{\item[{\includegraphics[width=0.75em]{down}}\,\,]}
+\newcommand*\tab{\indent\indent\indent\indent\indent\indent}
 
 %----------------------------------------------------------------------------------------
- % default text size
-Can bacterial colonies perform a fourier transform?
-What does a bacteria do? How would we manipulate it?
+\begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
+	\begin{center}
+		\textbf{\color{Grey} Motivation \color{Black}$|$
+		Designing algorithms to be executed in living organisms}
+	\end{center}
+\end{tcolorbox}
+\vspace{0.25cm}
 
-Bacteria already perform computations
-eg chemotaxis, lac system
-experimental figure + odes + network
+\noindent
+Is it possible to build a programming language that compiles into a chemical environment,
+allowing us to execute arbirary code in living cells? To produce appropriate adaptive
+responses given sensory input from enviroments, \textbf{living organisms perform
+asynchronous computations} using chemicals reaction networks \cite{Dalchau2018ComputingClocks}.
 
-genetic manipulation can supress/activate network segments
-We can cut-and-paste different network sections
-- synthetic biology approaches
+\vspace{1cm}
+\code{\textbf{\normalsize
+	for \textcolor{DarkBlue}{cell} in \textcolor{DarkBlue}{lymph node} : \\
+	\tab if type(\textcolor{DarkBlue}{cell}) == \textcolor{DarkRed}{"T"} : \\
+	\tab\tab \textcolor{DarkBlue}{cell}.dna.append(\textcolor{Emerald}{sequence}); \\
+	\tab\tab \textcolor{DarkBlue}{cell}.express(\textcolor{OliveGreen}{receptor}) \\
+	\tab if \textcolor{DarkRed}{"cancerSequence"} in \textcolor{DarkBlue}{cell}.dna : \\
+	\tab\tab \textcolor{DarkBlue}{cell}.init(apoptosis)
+}}
 
-Can we cut-and-paste the right networks together to perform any arbitrary caclulation?
+\begin{tikzpicture}[remember picture, overlay]
+	\node [anchor=south west, inner sep=6cm]  at (25,-5) {
+		\includegraphics[height=12cm]{response-function}};
+\end{tikzpicture}
 
+\begin{tikzpicture}[remember picture, overlay]
+	\node [text width=12cm] at (62,9) {
+		\begin{align*}
+			\partial_t\bar{\mathrm{p}}(t)=
+			\!\!\!\!\!\!\!\!\!\!\!
+			\overbracket[2pt][10pt]{\bar{\mathrm{R}}(\bar{\mathrm{p}}|\theta)}^{\text{reaction network}}
+			\!\!\!\!\!\!\!\!\!\!\!+\!\!\!\!\!\!\!\!\!\!\!
+			\underbracket[2pt][10pt]{\bar{\mathrm{S}}(t)}_{\text{sensory input}}
+		\end{align*}};
+\end{tikzpicture}
+
+\begin{tikzpicture}[remember picture, overlay]
+	\node [anchor=south west, inner sep=6cm]  at (15.5,2) {
+		\includegraphics[height=2cm]{rarrow}};
+\end{tikzpicture}
+
+\begin{tikzpicture}[remember picture, overlay]
+	\node [text width=24cm]  at (34,15) {
+		\textbf{\textcolor{Gray}{compile\\response\\function}}};
+\end{tikzpicture}
+
+\begin{tikzpicture}[remember picture, overlay]
+	\node [anchor=south west, inner sep=6cm]  at (39.5,5) {
+		\includegraphics[height=2cm]{rarrow}};
+\end{tikzpicture}
+
+\begin{tikzpicture}[remember picture, overlay]
+	\node [text width=24cm]  at (58,18) {
+		\textbf{\textcolor{Gray}{infer\\reaction\\network}}};
+\end{tikzpicture}
+
+\vspace{-9cm}
 \begin{tcolorbox}[boxrule=2pt,arc=3.4pt,boxsep=2mm]
 	\begin{center}
 		\textbf{\color{Grey}Algorithm $\rightarrow$ Dynamical System \color{Black}$|$
@@ -121,18 +167,16 @@ Can we cut-and-paste the right networks together to perform any arbitrary caclul
 	\end{center}
 \end{tcolorbox}
 
-\begin{itemize}[leftmargin=5cm]
-	\up Methods for the probabilistic inference of reaction networks exist \cite{Galagali2016BayesianNetworks}
-	\up Mappings to and from algorithms pave the path towards programming in cells \cite{Dalchau2018ComputingClocks}
+\begin{itemize}[leftmargin=3cm]
+	\up Silicon devices executed code on arithmetic logic units, which are
+	described by signal-response functions
+	\down Networks of logical units are \textbf{controlled by clocks} limiting algorithms to
+	\textbf{synchronous sequential logic}
+	\up Chemical reaction networks can be inferred from cellular processes
+	data \cite{Galagali2016BayesianNetworks}
 	\down No general mapping exists that takes model complexity into consideration
 \end{itemize}
 
-\begin{align*}
-	\partial_t\bar{\mathrm{p}}(t)\;\;=
-	\overbracket[2pt][10pt]{R(\rho)}^{\text{reaction}}+
-	\underbracket[2pt][10pt]{S(t)}_{\text{source}}
-\end{align*}
-% $R(\rho)$ is a vector, multinomial in the components of $\rho$
 
 
 %----------------------------------------------------------------------------------------
