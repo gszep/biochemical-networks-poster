@@ -45,7 +45,7 @@
 \end{tikzpicture}
 
 \begin{tikzpicture}[remember picture, overlay]
-	\node [anchor=south west, inner sep=6cm]  at (56,-89) {
+	\node [anchor=south west, inner sep=6cm]  at (56,-88) {
 		\includegraphics[height=7cm]{epsrc}};
 \end{tikzpicture}
 \LARGE
@@ -188,8 +188,8 @@ asynchronous computations} using chemicals reaction networks \cite{Dalchau2018Co
 
 \begin{itemize}[leftmargin=3cm]
 	\up For \textit{known time-scale separations} one can reduce models, introducing memory effects~\cite{Phillies2000ProjectionFormalism}
-	\down There exist \textit{no relevance determination} methods\\beyond
-	empirical sensitivity analysis~\cite{Cardelli2016NoiseSwitches}
+	\down There exist no \textit{unsupervised reduction} methods\\beyond
+	empirical sensitivity analysis
 \end{itemize}
 
 \vfill
@@ -219,23 +219,66 @@ asynchronous computations} using chemicals reaction networks \cite{Dalchau2018Co
 	\end{center}
 \end{tcolorbox}
 
-\begin{itemize}[leftmargin=5cm]
+\begin{itemize}[leftmargin=3cm]
 	\up Dynamics of local equilibria show promising pattern formation analysis beyond linear stability \cite{Halatek2018}
-	\down Need to design attractors in phase space; no description in phase space exists
+	\down No geometric description of diffusive attractors in phase space exists; required for pattern design
 \end{itemize}
 
-\begin{align*}
-	\partial_t\bar{\mathrm{p}}(\bar{\mathrm{x}},t)=
-	\!\!\!\!\!\!\!\!\!\!\!
-	\overbracket[2pt][10pt]{\bar{\mathrm{R}}(\bar{\mathrm{p}}|\theta)}^{\text{reaction network}}
-	\!\!\!\!\!\!\!\!\!\!\!+D
-	\underbracket[2pt][10pt]{\partial_{\bar{\mathrm{x}}}^2\,
-	\bar{\mathrm{p}}(\bar{\mathrm{x}},t)}_{\text{diffusion}}
-\end{align*}
-$R(\rho)$ is a vector, multinomial in the components of $\rho$
+\begin{tikzpicture}[remember picture, overlay]
+	\node [anchor=south west, inner sep=6cm]  at (0,-17) {
+		\includegraphics[height=12cm]{pattern}};
+\end{tikzpicture}
+
+\begin{tikzpicture}[remember picture, overlay]
+	\node [anchor=south west, inner sep=6cm]  at (25,-15) {
+		\includegraphics[height=12cm]{geometrisation}};
+\end{tikzpicture}
+
+\begin{tikzpicture}[remember picture, overlay]
+	\node [text width=12cm] at (59,-2) {
+		\begin{align*}
+			\partial_t\bar{\mathrm{p}}(\bar{\mathrm{x}},t)=
+			\!\!\!\!\!\!\!\!\!\!\!
+			\overbracket[2pt][10pt]{\bar{\mathrm{R}}(\bar{\mathrm{p}}|\theta)}^{\text{reaction network}}
+			\!\!\!\!\!\!\!\!\!\!\!+D
+			\underbracket[2pt][10pt]{\partial_{\bar{\mathrm{x}}}^2\,
+			\bar{\mathrm{p}}(\bar{\mathrm{x}},t)}_{\text{diffusion}}
+		\end{align*}};
+\end{tikzpicture}
+
+\begin{tikzpicture}[remember picture, overlay]
+	\node [anchor=south west, inner sep=6cm]  at (15,-6) {
+		\includegraphics[height=2cm]{rarrow}};
+\end{tikzpicture}
+
+\begin{tikzpicture}[remember picture, overlay]
+	\node [text width=24cm]  at (32,1) {
+		\textbf{\textcolor{Gray}{geometrisation}}};
+\end{tikzpicture}
+
+\begin{tikzpicture}[remember picture, overlay]
+	\node [anchor=south west, inner sep=6cm]  at (38,-2) {
+		\includegraphics[height=2cm]{rarrow}};
+\end{tikzpicture}
+
+\begin{tikzpicture}[remember picture, overlay]
+	\node [text width=24cm]  at (57,5) {
+		\textbf{\textcolor{Gray}{inference}}};
+\end{tikzpicture}
+
+\begin{tikzpicture}[remember picture, overlay]
+	\node [text width=12cm] at (34,7) {
+		\begin{align*}\textcolor{red}{\bar{\mathrm{R}}}\end{align*}};
+\end{tikzpicture}
+
+\begin{tikzpicture}[remember picture, overlay]
+	\node [text width=12cm] at (36.5,9.75) {
+		\begin{align*}\textcolor{DarkBlue}{D}\end{align*}};
+\end{tikzpicture}
 
 %----------------------------------------------------------------------------------------
-\vfill\tiny
+\vspace{-1cm}
+\vfill\normalsize
 
 \begin{minipage}[t][][b]{0.99\textwidth}
 	\bibliographystyle{style}

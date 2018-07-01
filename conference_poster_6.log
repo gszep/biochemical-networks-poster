@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.22)  29 JUN 2018 15:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.22)  1 JUL 2018 16:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -341,46 +341,46 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 ))) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/palatino.sty
 Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
-) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip45
-\enit@outerparindent=\dimen162
-\enit@toks=\toks30
-\enit@inbox=\box71
-\enitdp@description=\count124
-) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen163
-\lightrulewidth=\dimen164
-\cmidrulewidth=\dimen165
-\belowrulesep=\dimen166
-\belowbottomsep=\dimen167
-\aboverulesep=\dimen168
-\abovetopsep=\dimen169
-\cmidrulesep=\dimen170
-\cmidrulekern=\dimen171
-\defaultaddspace=\dimen172
-\@cmidla=\count125
-\@cmidlb=\count126
-\@aboverulesep=\dimen173
-\@belowrulesep=\dimen174
-\@thisruleclass=\count127
-\@lastruleclass=\count128
-\@thisrulewidth=\dimen175
 ) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
  (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen176
-\captionmargin@=\dimen177
-\captionwidth=\dimen178
-\caption@tempdima=\dimen179
-\caption@indent=\dimen180
-\caption@parindent=\dimen181
-\caption@hangindent=\dimen182
+\captionmargin=\dimen162
+\captionmargin@=\dimen163
+\captionwidth=\dimen164
+\caption@tempdima=\dimen165
+\caption@indent=\dimen166
+\caption@parindent=\dimen167
+\caption@hangindent=\dimen168
 )
-\c@ContinuedFloat=\count129
+\c@ContinuedFloat=\count124
+) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip45
+\enit@outerparindent=\dimen169
+\enit@toks=\toks30
+\enit@inbox=\box71
+\enitdp@description=\count125
+) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen170
+\lightrulewidth=\dimen171
+\cmidrulewidth=\dimen172
+\belowrulesep=\dimen173
+\belowbottomsep=\dimen174
+\aboverulesep=\dimen175
+\abovetopsep=\dimen176
+\cmidrulesep=\dimen177
+\cmidrulekern=\dimen178
+\defaultaddspace=\dimen179
+\@cmidla=\count126
+\@cmidlb=\count127
+\@aboverulesep=\dimen180
+\@belowrulesep=\dimen181
+\@thisruleclass=\count128
+\@lastruleclass=\count129
+\@thisrulewidth=\dimen182
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
@@ -632,43 +632,62 @@ File: figures/up.png Graphic file (type png)
  <use figures/up.png>
 Package pdftex.def Info: figures/up.png used on input line 171.
 (pdftex.def)             Requested size: 32.25pt x 37.7878pt.
+File: figures/up.png Graphic file (type png)
+ <use figures/up.png>
+Package pdftex.def Info: figures/up.png used on input line 172.
+(pdftex.def)             Requested size: 32.25pt x 37.7878pt.
  <figures/down.png, id=12, 91.95204pt x 107.32864pt>
 File: figures/down.png Graphic file (type png)
  <use figures/down.png>
-Package pdftex.def Info: figures/down.png used on input line 173.
+Package pdftex.def Info: figures/down.png used on input line 174.
 (pdftex.def)             Requested size: 32.25pt x 37.64255pt.
 File: figures/up.png Graphic file (type png)
  <use figures/up.png>
-Package pdftex.def Info: figures/up.png used on input line 175.
+Package pdftex.def Info: figures/up.png used on input line 190.
 (pdftex.def)             Requested size: 32.25pt x 37.7878pt.
 File: figures/down.png Graphic file (type png)
  <use figures/down.png>
-Package pdftex.def Info: figures/down.png used on input line 177.
+Package pdftex.def Info: figures/down.png used on input line 191.
 (pdftex.def)             Requested size: 32.25pt x 37.64255pt.
 File: figures/up.png Graphic file (type png)
  <use figures/up.png>
-Package pdftex.def Info: figures/up.png used on input line 193.
+Package pdftex.def Info: figures/up.png used on input line 206.
 (pdftex.def)             Requested size: 32.25pt x 37.7878pt.
 File: figures/down.png Graphic file (type png)
  <use figures/down.png>
-Package pdftex.def Info: figures/down.png used on input line 194.
+Package pdftex.def Info: figures/down.png used on input line 207.
 (pdftex.def)             Requested size: 32.25pt x 37.64255pt.
 File: figures/up.png Graphic file (type png)
  <use figures/up.png>
-Package pdftex.def Info: figures/up.png used on input line 209.
+Package pdftex.def Info: figures/up.png used on input line 223.
 (pdftex.def)             Requested size: 32.25pt x 37.7878pt.
 File: figures/down.png Graphic file (type png)
  <use figures/down.png>
-Package pdftex.def Info: figures/down.png used on input line 210.
+Package pdftex.def Info: figures/down.png used on input line 224.
 (pdftex.def)             Requested size: 32.25pt x 37.64255pt.
-File: figures/up.png Graphic file (type png)
- <use figures/up.png>
-Package pdftex.def Info: figures/up.png used on input line 226.
-(pdftex.def)             Requested size: 32.25pt x 37.7878pt.
-File: figures/down.png Graphic file (type png)
- <use figures/down.png>
-Package pdftex.def Info: figures/down.png used on input line 227.
-(pdftex.def)             Requested size: 32.25pt x 37.64255pt.
+ <figures/pattern.png, id=13, 240.9pt x 258.9675pt>
+File: figures/pattern.png Graphic file (type png)
+ <use figures/pattern.png>
+Package pdftex.def Info: figures/pattern.png used on input line 229.
+(pdftex.def)             Requested size: 317.64711pt x 341.43306pt.
+ <figures/geometrisation.png, id=14, 249.93375pt x 258.9675pt>
+File: figures/geometrisation.png Graphic file (type png)
+ <use figures/geometrisation.png>
+Package pdftex.def Info: figures/geometrisation.png used on input line 234.
+(pdftex.def)             Requested size: 329.55888pt x 341.43306pt.
+
+Overfull \hbox (210.44272pt too wide) in paragraph at lines 246--246
+[]  
+ []
+
+File: figures/rarrow.png Graphic file (type png)
+<use figures/rarrow.png>
+Package pdftex.def Info: figures/rarrow.png used on input line 251.
+(pdftex.def)             Requested size: 221.06935pt x 56.9055pt.
+File: figures/rarrow.png Graphic file (type png)
+ <use figures/rarrow.png>
+Package pdftex.def Info: figures/rarrow.png used on input line 261.
+(pdftex.def)             Requested size: 221.06935pt x 56.9055pt.
  (/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.bbl
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <35.83> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1.
@@ -678,21 +697,21 @@ Missing character: There is no “ in font pplr7t!
 ) [1
 
 
-Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/gszep/Documents/presentations/biochemical-networks-poster/figures/abstract.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/kcl.jpg> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/mrc.jpg> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/epsrc.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/response-function.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/rarrow.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/up.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/down.png>] (/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.aux) ) 
+Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/gszep/Documents/presentations/biochemical-networks-poster/figures/abstract.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/kcl.jpg> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/mrc.jpg> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/epsrc.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/response-function.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/rarrow.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/up.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/down.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/pattern.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/geometrisation.png>]
+(/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.aux) ) 
 Here is how much of TeX's memory you used:
- 16716 strings out of 493029
- 333421 string characters out of 6136234
- 399243 words of memory out of 5000000
- 19925 multiletter control sequences out of 15000+600000
+ 16747 strings out of 493029
+ 334114 string characters out of 6136234
+ 399684 words of memory out of 5000000
+ 19955 multiletter control sequences out of 15000+600000
  22365 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,21n,73p,867b,689s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.pdf (1 page, 322808 bytes).
+ 54i,22n,73p,867b,689s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on /home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.pdf (1 page, 372747 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 62 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

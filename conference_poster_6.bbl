@@ -5,6 +5,11 @@ Neil Dalchau, Gregory Sz{\'{e}}p, et~al.
 \newblock {Computing with biological switches and clocks}.
 \newblock {\em Natural Computing}, 6 2018.
 
+\bibitem{Cardelli2018ChemicalCircuits.}
+Luca Cardelli, Marta Kwiatkowska, et~al.
+\newblock {Chemical reaction network designs for asynchronous logic circuits.}
+\newblock {\em Natural computing}, 2018.
+
 \bibitem{Galagali2016BayesianNetworks}
 Nikhil Galagali.
 \newblock {Bayesian inference of chemical reaction networks}.
@@ -14,11 +19,6 @@ Nikhil Galagali.
 George~D.J. Phillies.
 \newblock {Projection Operators and the Mori-Zwanzig Formalism}.
 \newblock {\em Springer, New York, NY}, 2000.
-
-\bibitem{Cardelli2016NoiseSwitches}
-Luca Cardelli, Attila Csik{\'{a}}sz-Nagy, et~al.
-\newblock {Noise Reduction in Complex Biological Switches}.
-\newblock {\em Scientific Reports}, 2016.
 
 \bibitem{Daniels2008SloppinessBiology}
 Bryan~C Daniels, Yan-Jiun Chen, et~al.
