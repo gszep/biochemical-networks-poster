@@ -1,22 +1,22 @@
 \documentclass[a0,portrait]{a0poster}
-\usepackage{multicol} % This is so we can have multiple columns of text side-by-side
-\columnsep=100pt % This is the amount of white space between the columns in the poster
-\columnseprule=3pt % This is the thickness of the black line between the columns in the poster
+\usepackage{multicol} % multiple columns of text side-by-side
+\columnsep=100pt % white space between the columns in the poster
+\columnseprule=3pt % thickness of the black line between the columns in the poster
 
-\usepackage[svgnames,dvipsnames]{xcolor} % Specify colors by their 'svgnames', for a full list of all colors available see here: http://www.latextemplates.com/svgnames-colors
+\usepackage[svgnames,dvipsnames]{xcolor} % specify colours by their names
 \usepackage{tcolorbox} % coloured boxing of sections
 \usepackage{tikz} % manual placement of logos
-\usepackage{palatino} % use the Palatino font
+\usepackage{palatino} % use the palatino font
 
-\usepackage{graphicx} % Required for including images
+\usepackage{graphicx} % including images
+\usepackage[font=small,labelfont=bf]{caption} % captions to tables and figures
+\graphicspath{{figures/}} % location of the graphics file
+
 \usepackage{enumitem}
-\graphicspath{{figures/}} % Location of the graphics files
+\usepackage{booktabs} % top and bottom rules for table
 
-\usepackage{booktabs} % Top and bottom rules for table
-\usepackage[font=small,labelfont=bf]{caption} % Required for specifying captions to tables and figures
-
-\usepackage{amsfonts, amsmath, amsthm, amssymb} % For math fonts, symbols and environments
-\usepackage{wrapfig} % Allows wrapping text around tables and figures
+\usepackage{amsfonts, amsmath, amsthm, amssymb} % math fonts, symbols and environments
+\usepackage{wrapfig} % wrapping text around tables and figures
 \usepackage{mathtools}
 
 \begin{document}
@@ -93,7 +93,7 @@
 
 \vspace{-16cm}
 
-% itemized thumbs up/down icons
+% itemised thumbs up/down icons
 \newcommand*\up{\item[{\includegraphics[width=0.75em]{up}}\,\,]}
 \newcommand*\down{\item[{\includegraphics[width=0.75em]{down}}\,\,]}
 \newcommand*\tab{\indent\indent\indent\indent\indent\indent}
@@ -109,8 +109,8 @@
 
 \noindent
 Is it possible to build a programming language that compiles into a chemical environment,
-allowing us to execute arbirary code in living cells? To produce appropriate adaptive
-responses given sensory input from enviroments, \textbf{living organisms perform
+allowing us to execute arbitrary code in living cells? To produce appropriate adaptive
+responses given sensory input from environments, \textbf{living organisms perform
 asynchronous computations} using chemicals reaction networks \cite{Dalchau2018ComputingClocks}.
 
 \vspace{1cm}
@@ -168,13 +168,10 @@ asynchronous computations} using chemicals reaction networks \cite{Dalchau2018Co
 \end{tcolorbox}
 
 \begin{itemize}[leftmargin=3cm]
-	\up Silicon devices executed code on arithmetic logic units, which are
-	described by signal-response functions
-	\down Networks of logical units are \textbf{controlled by clocks} limiting algorithms to
-	\textbf{synchronous sequential logic}
-	\up Chemical reaction networks can be inferred from cellular processes
+	\up Asynchronous arithmetic logic units have been designed using chemical reaction networks \cite{Cardelli2018ChemicalCircuits.}
+	\up Chemical reaction networks can be inferred from processes
 	data \cite{Galagali2016BayesianNetworks}
-	\down No general mapping exists that takes model complexity into consideration
+	\down No mapping between response function and network exists that minimises complexity
 \end{itemize}
 
 
@@ -189,9 +186,9 @@ asynchronous computations} using chemicals reaction networks \cite{Dalchau2018Co
 	\end{center}
 \end{tcolorbox}
 
-\begin{itemize}[leftmargin=5cm]
+\begin{itemize}[leftmargin=3cm]
 	\up For \textit{known time-scale separations} one can reduce models, introducing memory effects~\cite{Phillies2000ProjectionFormalism}
-	\down There exist \textit{no relevance determination} methods beyond
+	\down There exist \textit{no relevance determination} methods\\beyond
 	empirical sensitivity analysis~\cite{Cardelli2016NoiseSwitches}
 \end{itemize}
 
@@ -205,7 +202,7 @@ asynchronous computations} using chemicals reaction networks \cite{Dalchau2018Co
 	\end{center}
 \end{tcolorbox}
 
-\begin{itemize}[leftmargin=5cm]
+\begin{itemize}[leftmargin=3cm]
 	\up Relationship between robustness and \\evolvability has been investigated \cite{Daniels2008SloppinessBiology}
 	\down Evolutionary relationships between different chemical networks have not been quantified
 \end{itemize}
@@ -223,19 +220,22 @@ asynchronous computations} using chemicals reaction networks \cite{Dalchau2018Co
 \end{tcolorbox}
 
 \begin{itemize}[leftmargin=5cm]
-	\up Dynamics of local equilibria show promising analysis beyond linear stability \cite{Halatek2018}
+	\up Dynamics of local equilibria show promising pattern formation analysis beyond linear stability \cite{Halatek2018}
 	\down Need to design attractors in phase space; no description in phase space exists
 \end{itemize}
 
 \begin{align*}
-	\partial_t\rho(t)\;\;=
-	\overbracket[2pt][10pt]{R(\rho)}^{\text{reaction}}+
-	\underbracket[2pt][10pt]{D\,\partial_x^2\rho(t)}_{\text{diffusion}}
+	\partial_t\bar{\mathrm{p}}(\bar{\mathrm{x}},t)=
+	\!\!\!\!\!\!\!\!\!\!\!
+	\overbracket[2pt][10pt]{\bar{\mathrm{R}}(\bar{\mathrm{p}}|\theta)}^{\text{reaction network}}
+	\!\!\!\!\!\!\!\!\!\!\!+D
+	\underbracket[2pt][10pt]{\partial_{\bar{\mathrm{x}}}^2\,
+	\bar{\mathrm{p}}(\bar{\mathrm{x}},t)}_{\text{diffusion}}
 \end{align*}
 $R(\rho)$ is a vector, multinomial in the components of $\rho$
 
 %----------------------------------------------------------------------------------------
-\vfill\normalsize
+\vfill\tiny
 
 \begin{minipage}[t][][b]{0.99\textwidth}
 	\bibliographystyle{style}
