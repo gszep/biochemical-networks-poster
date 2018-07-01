@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.22)  1 JUL 2018 16:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.22)  1 JUL 2018 17:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -700,15 +700,15 @@ Missing character: There is no “ in font pplr7t!
 Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/gszep/Documents/presentations/biochemical-networks-poster/figures/abstract.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/kcl.jpg> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/mrc.jpg> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/epsrc.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/response-function.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/rarrow.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/up.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/down.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/pattern.png> </home/gszep/Documents/presentations/biochemical-networks-poster/figures/geometrisation.png>]
 (/home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.aux) ) 
 Here is how much of TeX's memory you used:
- 16747 strings out of 493029
- 334114 string characters out of 6136234
+ 16748 strings out of 493029
+ 334129 string characters out of 6136234
  399684 words of memory out of 5000000
- 19955 multiletter control sequences out of 15000+600000
+ 19956 multiletter control sequences out of 15000+600000
  22365 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,22n,73p,867b,689s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.pdf (1 page, 372747 bytes).
+Output written on /home/gszep/Documents/presentations/biochemical-networks-poster/conference_poster_6.pdf (1 page, 372896 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream
